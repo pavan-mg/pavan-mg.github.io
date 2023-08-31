@@ -196,12 +196,12 @@ ul {
 
 .logotype_name{
 	text-transform: uppercase;
-	font-size: 28px;
+	font-size: 32px;
 	margin: 43px 0 0;
 }
 .logotype_occupation{
-	text-transform: none;
-	margin-top: 0px;
+	text-transform: uppercase;
+	margin-top: 5px;
 	color: #5ce2af;
 	font-size: 14px;
 	letter-spacing: 2px;
@@ -246,7 +246,7 @@ ul {
 }
 	.header_menu a{
 		text-decoration: none;
-		padding: 0 5px;
+		padding: 0 20px;
 		border-left: 1px solid #e4e3e8;
 		font-size: 16px;
 		font-weight: 400;
@@ -276,7 +276,7 @@ ul {
 		width: 210px;
 		height: 240px;
 		margin:10px;
-		src: "/images/pavanmg.jpg" 100% /210px no-repeat;
+		background: url(https://github.com/pavan-mg/pavan-mg.github.io/tree/main/images/pavanmg.jpg) 100% /210px no-repeat;
 	}
 
 .hello_content,
