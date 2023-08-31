@@ -215,7 +215,7 @@ ul {
 }
 	.download_print_buttons a {
 		text-decoration: none;
-		font-size: 12px;
+		font-size: 11spx;
 		font-family: 'Lato', Helvetica, sans-serif;
 		font-style: italic;
 		line-height: 45px;
