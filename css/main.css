@@ -209,16 +209,16 @@ ul {
 }
 
 .download_print_buttons {
-	width: 225px;
-	height: 40px;
+	width: 200px;
+	height: 45px;
 	float: right;
 }
 	.download_print_buttons a {
 		text-decoration: none;
-		font-size: 10px;
+		font-size: 12px;
 		font-family: 'Lato', Helvetica, sans-serif;
 		font-style: italic;
-		line-height: 40px;
+		line-height: 45px;
 		padding: 16px 17px;
 		background: #353638;
 	}
@@ -266,9 +266,9 @@ ul {
 }
 
 .profile_frame{
-	width: 230px;
-	height: 260px;
-	background: black;
+	width: 210px;
+	height: 240px;
+	/*background: black;*/
 	border: 1px solid #403F44;
 	margin-top: 30px;
 }
@@ -276,7 +276,7 @@ ul {
 		width: 210px;
 		height: 240px;
 		margin:10px;
-		background: url(https://raw.githubusercontent.com/pavan-mg/pavan-mg.github.io/main/images/pavanmg.jpg) 100% /210px no-repeat;
+		background: url(//raw.githubusercontent.com/pavan-mg/pavan-mg.github.io/main/images/pavanmg.jpg) 100% /210px no-repeat;
 	}
 
 .hello_content,
