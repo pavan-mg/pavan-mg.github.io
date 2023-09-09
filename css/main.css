@@ -229,7 +229,7 @@ ul {
 			color: #02070a;
 			padding-right: 3px;
 			font-style: normal;
-			font-size: 15px;
+			font-size: 16px;
 		}
 		.icon-angle-double-right {
 			position: relative;
@@ -266,15 +266,15 @@ ul {
 }
 
 .profile_frame{
-	width: 210px;
-	height: 240px;
+	width: 230px;
+	height: 230px;
 	/*background: black;*/
 	border: 1px solid #403F44;
 	margin-top: 30px;
 }
 	.profile_picture{
 		width: 210px;
-		height: 240px;
+		height: 210px;
 		margin:10px;
 		background: url(//raw.githubusercontent.com/pavan-mg/pavan-mg.github.io/main/images/pavanmg.jpg) 100% /210px no-repeat;
 	}
