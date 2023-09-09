@@ -268,9 +268,9 @@ ul {
 .profile_frame{
 	width: 230px;
 	height: 230px;
-	/*background: black;*/
+	background: black;
 	border: 1px solid #403F44;
-	margin-top: 30px;
+	margin-top: 10px;
 }
 	.profile_picture{
 		width: 210px;
