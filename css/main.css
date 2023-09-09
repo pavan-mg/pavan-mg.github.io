@@ -92,7 +92,7 @@
 /* Main tags */
 
 body {
-	background: url(//www.toptal.com/designers/subtlepatterns/patterns/dark_wall.png) repeat;
+	background: url(https://www.toptal.com/designers/subtlepatterns/patterns/dark_wall.png) repeat;
 	margin: 0;
 }
 
@@ -269,13 +269,13 @@ ul {
 	width: 230px;
 	height: 230px;
 	border: 5px solid #403F44;
-	margin-top: 30px;
+	margin-top: 10px;
 }
 	.profile_picture{
 		width: 210px;
 		height: 210px;
 		margin:10px;
-		background: url(https//raw.githubusercontent.com/pavan-mg/pavan-mg.github.io/main/images/pavanmg.jpg) 100% /210px no-repeat;
+		background: url(https://raw.githubusercontent.com/pavan-mg/pavan-mg.github.io/main/images/pavanmg.jpg) 100% /210px no-repeat;
 	}
 
 .hello_content,
