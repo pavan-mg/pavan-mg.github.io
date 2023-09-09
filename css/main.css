@@ -396,7 +396,6 @@ ul {
 
 .profile_quote {
 	position: relative;
-	/* margin-left: 5px; */
 }
 	.profile_quote p {
 		font-size: 17px;
@@ -405,7 +404,7 @@ ul {
 	.profile_quote  .entypo-quote {
 		color: #3d3a41;
 		font-size: 80px;
-    font-style: normal;
+    	font-style: normal;
 		position: absolute;
 		top: -20px;
 		right: 70px;
