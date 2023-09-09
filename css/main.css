@@ -268,7 +268,7 @@ ul {
 .profile_frame{
 	width: 230px;
 	height: 230px;
-	/*background: black;*/
+	background: #48DA9B;
 	border: 1px solid #403F44;
 	margin-top: 30px;
 }
