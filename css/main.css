@@ -266,17 +266,17 @@ ul {
 }
 
 .profile_frame{
-	width: 230px;
+	width: 260px;
 	height: 230px;
 	background: black;
 	border: 1px solid #403F44;
-	margin-top: 10px;
+	margin-top: 30px;
 }
 	.profile_picture{
 		width: 210px;
 		height: 210px;
 		margin:10px;
-		background: url(//raw.githubusercontent.com/pavan-mg/pavan-mg.github.io/main/images/pavanmg.jpg) 100% /210px no-repeat;
+		background: url(https//raw.githubusercontent.com/pavan-mg/pavan-mg.github.io/main/images/pavanmg.jpg) 100% /210px no-repeat;
 	}
 
 .hello_content,
