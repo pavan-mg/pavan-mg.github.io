@@ -280,7 +280,6 @@ ul {
 		transition: 0.5s;
 	}
 	.send_message_button:hover {
-		padding-right: 25px;
 		background: #22885c;
 	} 
 	.send_message_button:hover span:after {
