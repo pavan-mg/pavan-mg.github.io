@@ -348,7 +348,15 @@ ul {
 	}
 
 .get_social_content {
-	padding-left: 40px;
+	position: relative;
+	z-index: 1;
+	background: white;
+	width: 15rem;
+	height: auto;
+	padding-top: 3.5vmin;
+	margin: 2rem;
+	border-radius: 0.5em;
+	box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5)
 }
 
 .footer_name {
