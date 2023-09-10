@@ -351,6 +351,7 @@ ul {
 
 .get_social_content {
 	margin-top: 15px;
+	font-size: 35px;
 }
   .get_social_content h2{
     margin-bottom: 8px;
@@ -359,7 +360,7 @@ ul {
 		margin-left: -8px;
 	}
 	.social_icons a {
-		font-size: 35px;
+		
 		text-decoration: none;
 		color: #000507;
 		padding: 0;
