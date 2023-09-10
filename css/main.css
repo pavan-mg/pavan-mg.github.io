@@ -258,8 +258,8 @@ ul {
 	border: none;
 	color: #FFFFFF;
 	text-align: center;
-	font-size: 24px;
-	padding: 20px;
+	font-size: 20px;
+	padding: 15px;
 	width: 190px;
 	transition: all 0.5s;
 	cursor: pointer;
@@ -281,7 +281,7 @@ ul {
 	}
 	.send_message_button:hover {
 		padding-right: 25px;
-		background: #38c98a;
+		background: #22885c;
 	} 
 	.send_message_button:hover span:after {
 		opacity: 1;
