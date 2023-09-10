@@ -200,16 +200,16 @@ ul {
 }
 .logotype_occupation{
 	text-transform: uppercase;
-	margin-top: 10px;
+	margin-top: 15px;
 	color: #e4e3e8;
-	font-size: 14px;
+	font-size: 18px;
 	letter-spacing: 0px;
 	padding-left: 0px;
 }
 
 .download_print_buttons {
 	width: 200px;
-	height: 45px;
+	height: 40px;
 	float: right;
 }
 	.download_print_buttons a {
@@ -217,8 +217,8 @@ ul {
 		font-size: 12px;
 		font-family: 'Lato', Helvetica, sans-serif;
 		font-style: italic;
-		line-height: 45px;
-		padding: 16px 17px;
+		line-height: 40px;
+		padding: 13px 14px;
 		background: #353638;
 	}
 		.download_print_buttons a:hover {
