@@ -159,17 +159,17 @@ ul {
 	margin: 0 auto;
 }
 	#header {
-		height: 100px;
+		height: 80px;
 		border-bottom: 1px solid #b5b5b5;
 	}
 		.header_logotype_container {
 			width: 260px;
-			height: 100px;
+			height: 80px;
 			border-right: 1px solid #b5b5b5;
 			float: left;
 		}
 		.header_menu_container {
-			height: 100px;
+			height: 80px;
 			width: 699px;
 			float: left;
 		}
@@ -196,7 +196,7 @@ ul {
 
 .logotype_name{
 	font-size: 32px;
-	margin: 33px 0 0;
+	margin: 22px 0 0;
 }
 .logotype_occupation{
 	margin-top: 5px;
@@ -239,7 +239,7 @@ ul {
 			
 .header_menu {
 	width: 699px;
-	margin-top: 20px;
+	margin-top: 10px;
 	margin-left: 5px;
 }
 	.header_menu a{
