@@ -356,37 +356,6 @@ ul {
   .get_social_content h2{
     margin-bottom: 8px;
   }
-	.social_icons {
-		margin-left: -8px;
-	}
-	.social_icons a {
-		
-		text-decoration: none;
-		color: #000507;
-		padding: 0;
-		padding: 0 5px;
-	}
-		.social_icons a span.invisible {
-			display:none;
-		}
-		.social_icons .facebook:hover{
-			background: #3b5998;
-			color: #dfe3ee;
-			border-top-right-radius: 50px;
-			border-bottom-left-radius: 50px;
-		}
-		.social_icons .twitter:hover{
-			background: #00B0ED;
-			color: #fff;
-			border-top-left-radius: 50px;
-			border-bottom-right-radius: 50px;
-		}
-		.social_icons .linkedin:hover{
-			background: #007bb6;
-			color: #fff;
-			border-top-right-radius: 50px;
-			border-bottom-left-radius: 50px;
-		}
 
 .footer_name {
 	font-style: italic;
