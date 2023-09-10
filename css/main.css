@@ -355,9 +355,9 @@ ul {
 	}
 	.social-icons li {
 		height: 50px;
+		padding: 5px;
 	}
 	.social-icons a {
-		color: #e4e3e8;
 		text-decoration: none;
 	}
 .footer_name {
