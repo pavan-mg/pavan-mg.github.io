@@ -196,7 +196,7 @@ ul {
 
 .logotype_name{
 	font-size: 32px;
-	margin: 0 0 0;
+	margin: 14 0 0;
 }
 .logotype_occupation{
 	margin-top: 0px;
@@ -239,7 +239,7 @@ ul {
 			
 .header_menu {
 	width: 699px;
-	margin-top: 10px;
+	margin-top: 12px;
 	margin-left: 5px;
 }
 	.header_menu a{
