@@ -361,8 +361,10 @@ ul {
 		text-decoration: none;
 	}
 .footer_name {
-	font-style: italic;
-	margin-top: 20px;
+	color: #636262;
+	margin-top: 15px;
+	text-decoration: none;
+	float: center;
 }
 
 /* Profile Content */
