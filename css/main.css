@@ -254,13 +254,13 @@ ul {
 .send_message_button {
 	display: inline-block;
 	border-radius: 4px;
-	background-color: #f4511e;
+	background-color: #48DA9B;
 	border: none;
 	color: #FFFFFF;
 	text-align: center;
-	font-size: 28px;
+	font-size: 24px;
 	padding: 20px;
-	width: 200px;
+	width: 190px;
 	transition: all 0.5s;
 	cursor: pointer;
 	margin-top: 25px;
