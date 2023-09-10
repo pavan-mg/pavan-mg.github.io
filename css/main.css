@@ -252,6 +252,7 @@ ul {
 }
 
 .send_message_button {
+	margin-top: 25px;
 	display: inline-block;
 	border-radius: 4px;
 	background-color: #48DA9B;
@@ -263,7 +264,6 @@ ul {
 	width: 190px;
 	transition: all 0.5s;
 	cursor: pointer;
-	margin-top: 25px;
 }  
 	.send_message_button span {
 		cursor: pointer;
@@ -289,7 +289,7 @@ ul {
 	}
 
 .social-icons {
-	font-size: 30;
+	font-size: 28;
 	margin-right: 10px;
 }
 	ul.social-icons {
