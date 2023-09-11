@@ -303,17 +303,13 @@ ul {
 /* Profile Content */
 
 .profile_quote {
-	position: absolute;
+	position: relative;
 }
 	.profile_quote p {
 		font-size: 17px;
 		width: 455px;
 	}
 	.profile_quote  .entypo-quote {
-		color: #3d3a41;
-		font-size: 80px;
-    	font-style: normal;
-		position: absolute;
 		top: -20px;
 		right: 70px;
 	}
