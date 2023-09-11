@@ -29,16 +29,6 @@
 	margin-bottom: 110px;
 }
 
-.sticky {
-	position: fixed;
-	top: 0;
-	width: 100%;
-	height: 3em;
-	background: rgba(0, 0, 0, 0.5);
-	z-index: 9999;
-	transition: all 1.5s ease;
-}
-
 .horizontal_list {
 	margin: 0;
 	padding: 0;
@@ -127,22 +117,17 @@ ul {
 	#header {
 		height: 80px;
 		border-bottom: 1px solid #b5b5b5;
-		background: rgb(69, 67, 67);
 	}
 		.header_logotype_container {
 			width: 260px;
 			height: 80px;
 			border-right: 1px solid #b5b5b5;
 			float: left;
-			position: fixed;
-			top: 0;
 		}
 		.header_menu_container {
 			height: 80px;
 			width: 699px;
 			float: left;
-			position: fixed;
-			top: 0;
 		}
 			.header_menu_container a {
 				font-family: 'Lato', Helvetica, sans-serif;
@@ -168,8 +153,6 @@ ul {
 .logotype_name{
 	margin: 14px 0 0;
 	font-size: 32px;
-	position: fixed;
-	top: 0;
 }
 .logotype_occupation{
 	margin-top: 0px;
@@ -177,16 +160,12 @@ ul {
 	font-size: 16px;
 	letter-spacing: 0px;
 	padding-left: 0px;
-	position: fixed;
-	top: 0;
 }
 
 .download_print_buttons {
 	width: 200px;
 	height: 40px;
 	float: right;
-	position: fixed;
-	top: 0;
 }
 	.download_print_buttons a {
 		text-decoration: none;
@@ -218,8 +197,6 @@ ul {
 	width: 699px;
 	margin-top: 12px;
 	margin-left: 5px;
-	position: fixed;
-	top: 0;
 }
 	.header_menu a{
 		text-decoration: none;
