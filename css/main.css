@@ -304,14 +304,12 @@ ul {
 
 .profile_quote {
 	position: relative;
+	top: -20px;
+	right: 70px;
 }
 	.profile_quote p {
 		font-size: 17px;
 		width: 455px;
-	}
-	.profile_quote  .entypo-quote {
-		top: -20px;
-		right: 70px;
 	}
 
 .philosophy_content {
