@@ -120,7 +120,8 @@ ul {
 		border-bottom: 1px solid #b5b5b5;
 		position: fixed;
 		top: 0;
-		width: 100%;
+		width: 960;
+		background: rgb(69, 67, 67);
 	}
 		.header_logotype_container {
 			width: 260px;
