@@ -169,9 +169,9 @@ ul {
 }
 
 .download_print_buttons {
-	width: 120px;
+	width: 200px;
 	height: 40px;
-	right: 0;
+	float: right;
 }
 	.download_print_buttons a {
 		text-decoration: none;
