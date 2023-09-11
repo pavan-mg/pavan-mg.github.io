@@ -117,6 +117,7 @@ ul {
 	#header {
 		height: 80px;
 		border-bottom: 1px solid #b5b5b5;
+		background: #353638;
 	}
 		.header_logotype_container {
 			width: 260px;
@@ -130,6 +131,7 @@ ul {
 			width: 699px;
 			float: left;
 			position: fixed;
+			right: 261px;
 		}
 			.header_menu_container a {
 				font-family: 'Lato', Helvetica, sans-serif;
