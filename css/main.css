@@ -116,7 +116,6 @@ ul {
 }
 	#header {
 		height: 80px;
-		background: rgb(69, 67, 67);
 		border-bottom: 1px solid #b5b5b5;
 	}
 		.header_logotype_container {
@@ -124,18 +123,11 @@ ul {
 			height: 80px;
 			border-right: 1px solid #b5b5b5;
 			float: left;
-			position: fixed;
-			background: rgb(69, 67, 67);
-			border-bottom: 1px solid #b5b5b5;
 		}
 		.header_menu_container {
 			height: 80px;
 			width: 699px;
 			float: left;
-			position: fixed;
-			margin-left: 261px;
-			background: rgb(69, 67, 67);
-			border-bottom: 1px solid #b5b5b5;
 		}
 			.header_menu_container a {
 				font-family: 'Lato', Helvetica, sans-serif;
