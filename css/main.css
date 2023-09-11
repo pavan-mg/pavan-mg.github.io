@@ -83,7 +83,7 @@ blockquote {
 	
 blockquote, p , a, li {
 	font-family: 'Lato', Helvetica, sans-serif;
-	/*font-weight: 300;*/
+	font-weight: 300;
 	font-size: 15px;
 	color: #e4e3e8;
 }
