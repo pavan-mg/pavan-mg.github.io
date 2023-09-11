@@ -303,7 +303,7 @@ ul {
 /* Profile Content */
 
 .profile_quote {
-	position: relative;
+	position: absolute;
 }
 	.profile_quote p {
 		font-size: 17px;
