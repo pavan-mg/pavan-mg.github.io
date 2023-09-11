@@ -313,7 +313,7 @@ ul {
 		color: #3d3a41;
 		font-size: 80px;
     	font-style: normal;
-		position: absolute;
+		/*position: absolute;*/
 		top: -20px;
 		right: 70px;
 		cursor: default;
