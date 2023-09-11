@@ -83,7 +83,7 @@ blockquote {
 	
 blockquote, p , a, li {
 	font-family: 'Lato', Helvetica, sans-serif;
-	font-weight: 300;
+	/*font-weight: 300;*/
 	font-size: 15px;
 	color: #e4e3e8;
 }
@@ -310,10 +310,10 @@ ul {
 		width: 455px;
 	}
 	.profile_quote  .entypo-quote {
-		/*color: #3d3a41;*/
+		color: #3d3a41;
 		font-size: 80px;
     	font-style: normal;
-		/*position: absolute;*/
+		position: absolute;
 		top: -20px;
 		right: 70px;
 		cursor: default;
