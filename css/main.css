@@ -115,6 +115,7 @@ ul {
 	margin: 0 auto;
 }
 	#header {
+		overflow: hidden;
 		height: 80px;
 		border-bottom: 1px solid #b5b5b5;
 		position: fixed;
