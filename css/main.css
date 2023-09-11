@@ -131,7 +131,7 @@ ul {
 			width: 699px;
 			float: left;
 			position: fixed;
-			left: 261px;
+			margin-left: 261px;
 		}
 			.header_menu_container a {
 				font-family: 'Lato', Helvetica, sans-serif;
