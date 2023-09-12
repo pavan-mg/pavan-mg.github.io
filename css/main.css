@@ -118,6 +118,7 @@ ul {
 	#header {
 		height: 80px;
 		border-bottom: 1px solid #b5b5b5;
+		position: fixed;
 	}
 		.header_logotype_container {
 			width: 260px;
