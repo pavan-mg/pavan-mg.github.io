@@ -117,6 +117,7 @@ ul {
 }
 	#header {
 		height: 80px;
+		width: 960px;
 		border-bottom: 1px solid #b5b5b5;
 		position: fixed;
 	}
