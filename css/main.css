@@ -124,14 +124,14 @@ ul {
 			height: 80px;
 			border-right: 1px solid #b5b5b5;
 			float: left;
-			position: sticky;
+			position: fixed;
 			background-color: rgb(69, 67, 67);
 		}
 		.header_menu_container {
 			height: 80px;
 			width: 699px;
 			float: left;
-			position: sticky;
+			position: fixed;
 			background-color: rgb(69, 67, 67);
 		}
 			.header_menu_container a {
