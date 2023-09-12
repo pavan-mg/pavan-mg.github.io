@@ -126,13 +126,16 @@ ul {
 			float: left;
 			position: fixed;
 			background-color: rgb(69, 67, 67);
+			border-bottom: 1px solid #b5b5b5;
 		}
 		.header_menu_container {
 			height: 80px;
 			width: 699px;
+			margin-right: 261;
 			float: left;
 			position: fixed;
 			background-color: rgb(69, 67, 67);
+			border-bottom: 1px solid #b5b5b5;
 		}
 			.header_menu_container a {
 				font-family: 'Lato', Helvetica, sans-serif;
