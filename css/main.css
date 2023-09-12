@@ -163,12 +163,12 @@ ul {
 	padding-left: 0px;
 }
 
-.download_print_buttons {
+.download_button {
 	width: 120px;
 	height: 40px;
 	float: right;
 }
-	.download_print_buttons a {
+	.download_button a {
 		text-decoration: none;
 		font-size: 12px;
 		font-family: 'Lato', Helvetica, sans-serif;
@@ -177,10 +177,10 @@ ul {
 		padding: 13px 14px;
 		background: #353638;
 	}
-		.download_print_buttons a:hover {
+		.download_button a:hover {
 			background: #020609;
 		}
-		.download_print_buttons .icon {
+		.download_button .icon {
 			color: #02070a;
 			padding-right: 3px;
 			font-style: normal;
@@ -190,7 +190,7 @@ ul {
 			position: relative;
 			top: 2px;
 		}
-			.download_print_buttons a:hover .icon {
+			.download_button a:hover .icon {
 				color: #e4e3e8;
 			}
 			
