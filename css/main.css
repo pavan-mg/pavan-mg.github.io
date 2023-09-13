@@ -139,13 +139,13 @@ ul {
 			}
 	#left_col {
 		margin-top: 80px;
-		scroll-margin-top: 80px;
+		top: -80px;
 		width: 260px;
 		float: left;
 	}
 	#content_container {
 		margin-top: 80px;
-		scroll-margin-top: 80px;
+		top: -80px;
 		width: 699px;
 		border-left: 1px solid #b5b5b5;
 		float: left;
