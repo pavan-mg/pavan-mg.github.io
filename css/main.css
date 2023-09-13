@@ -296,7 +296,7 @@ ul {
 		text-decoration: none;
 		color: #a0a0a0;
 	}
-	.footer_name a :hover {
+	.footer_name a:hover {
 		color: #e4e3e8;
 	}
 
