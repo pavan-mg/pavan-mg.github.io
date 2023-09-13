@@ -116,8 +116,9 @@ ul {
 	margin: 0 auto;
 }
 	#header {
-		height: 80px;
+		margin-top: 80px;
 		width: 960px;
+		position: fixed;
 		border-bottom: 1px solid #b5b5b5;
 		z-index: 999;
 	}
