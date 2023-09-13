@@ -29,6 +29,30 @@
             <li><a href="#Experience">Work Experience</a></li>
             <li><a href="#Projects">Featured Projects</a></li>
             <li><a href="#Awards">Awards</a></li>
+            <script>
+              // Get all the anchor elements
+              var anchors = document.querySelectorAll("a");
+              // Loop through them and add a click event listener
+              for (var i = 0; i < anchors.length; i++) {
+                anchors[i].addEventListener("click", function(event) {
+                  // Prevent the default behavior of jumping to the anchor
+                  event.preventDefault();
+                  // Get the href attribute of the clicked link
+                  var href = this.getAttribute("href");
+                  // Get the element with that id
+                  var target = document.querySelector(href);
+                  // Get the offset top of that element
+                  var offsetTop = target.offsetTop;
+                  // Subtract the height of the nav bar (adjust as needed)
+                  var navHeight = 100;
+                  // Scroll to that position with some animation
+                  window.scrollTo({
+                    top: offsetTop - navHeight,
+                    behavior: "smooth"
+                  });
+                });
+              }
+            </script>
           </ul>
         </div>
       </div>
@@ -153,28 +177,4 @@
         <a class="footer_name" href="https://github.com/pavan-mg/pavan-mg.github.io" target="_blank"> PAVAN M G </a>| All Rights Reserved
       </p>
     </div>
-    <script>
-      // Get all the anchor elements
-      var anchors = document.querySelectorAll("a");
-      // Loop through them and add a click event listener
-      for (var i = 0; i < anchors.length; i++) {
-        anchors[i].addEventListener("click", function(event) {
-          // Prevent the default behavior of jumping to the anchor
-          event.preventDefault();
-          // Get the href attribute of the clicked link
-          var href = this.getAttribute("href");
-          // Get the element with that id
-          var target = document.querySelector(href);
-          // Get the offset top of that element
-          var offsetTop = target.offsetTop;
-          // Subtract the height of the nav bar (adjust as needed)
-          var navHeight = 100;
-          // Scroll to that position with some animation
-          window.scrollTo({
-            top: offsetTop - navHeight,
-            behavior: "smooth"
-          });
-        });
-      }
-    </script>
   </div>
