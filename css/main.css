@@ -19,7 +19,6 @@
 
 .block {
 	margin: 25px 30px;
-	padding-top: 80px;
 }
 	.block h1 {
 		margin-left: -5px;
@@ -115,6 +114,7 @@ ul {
 #main_container {
 	width: 960px;
 	margin: 0 auto;
+	scroll-margin-top: 100px;
 }
 	#header {
 		width: 960px;
@@ -174,7 +174,7 @@ ul {
 	width: 120px;
 	height: 40px;
 	float: right;
-	margin-right: -8px;
+	margin-right: -20px;
 }
 	.download_button a {
 		text-decoration: none;
