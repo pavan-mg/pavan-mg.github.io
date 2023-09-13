@@ -6,22 +6,6 @@
   crossorigin="anonymous"
 >
 <link rel="icon" href="assets/pavanmg.jpg">
-<script>
-  var anchors = document.querySelectorAll("a");
-  for (var i = 0; i < anchors.length; i++) {
-    anchors[i].addEventListener("click", function(event) {
-      event.preventDefault();
-      var href = this.getAttribute("href");
-      var target = document.querySelector(href);
-      var offsetTop = target.offsetTop;
-      var navHeight = 80;
-      window.scrollTo({
-        top: offsetTop - navHeight,
-        behavior: "smooth"
-      });
-    });
-  }
-</script>
 <!-- MAIN CONTAINER -->
   <div id="main_container">
     <!-- HEADER -->
@@ -169,4 +153,20 @@
         <a class="footer_name" href="https://github.com/pavan-mg/pavan-mg.github.io" target="_blank"> PAVAN M G </a>| All Rights Reserved
       </p>
     </div>
+    <script>
+      var anchors = document.querySelectorAll("a");
+      for (var i = 0; i < anchors.length; i++) {
+        anchors[i].addEventListener("click", function(event) {
+          event.preventDefault();
+          var href = this.getAttribute("href");
+          var target = document.querySelector(href);
+          var offsetTop = target.offsetTop;
+          var navHeight = 80;
+          window.scrollTo({
+            top: offsetTop - navHeight,
+            behavior: "smooth"
+          });
+        });
+      }
+    </script>
   </div>
