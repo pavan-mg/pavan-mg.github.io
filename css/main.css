@@ -290,12 +290,14 @@ ul {
 .footer_name {
 	margin-top: 16px;
 	text-align: center;
+	color: #a0a0a0;
+	text-decoration: none;
 }
-	.footer_name p, i, a{
+	.footer_name a{
 		color: #a0a0a0;
 		text-decoration: none;
 	}
-	.footer_name p, i, a :hover {
+	.footer_name a :hover {
 		color: #e4e3e8;
 	}
 
