@@ -185,19 +185,6 @@ ul {
 		.download_button a:hover {
 			background: #020609;
 		}
-		.download_button .icon {
-			color: #02070a;
-			padding-right: 3px;
-			font-style: normal;
-			font-size: 16px;
-		}
-		.icon-angle-double-right {
-			position: relative;
-			top: 2px;
-		}
-			.download_button a:hover .icon {
-				color: #e4e3e8;
-			}
 			
 .header_menu {
 	width: 699px;
