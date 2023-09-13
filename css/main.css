@@ -118,6 +118,7 @@ ul {
 	#header {
 		width: 960px;
 		position: fixed;
+		top: 0;
 		background-color: rgb(69, 67, 67);
 		border-bottom: 1px solid #b5b5b5;
 		z-index: 999;
