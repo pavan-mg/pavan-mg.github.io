@@ -170,6 +170,7 @@ ul {
 	font-size: 16px;
 	letter-spacing: 0px;
 	padding-left: 0px;
+	font-family: 'Lato', Helvetica, sans-serif;
 }
 
 .download_button {
@@ -287,12 +288,14 @@ ul {
 	}
 
 .footer_name {
-	color: #a0a0a0;
 	margin-top: 16px;
-	text-decoration: none;
 	text-align: center;
 }
-	.footer_name:hover {
+	.footer_name p, i, a{
+		color: #a0a0a0;
+		text-decoration: none;
+	}
+	.footer_name p, i, a :hover {
 		background: #e4e3e8;
 	}
 
