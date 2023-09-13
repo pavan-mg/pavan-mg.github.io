@@ -291,10 +291,8 @@ ul {
 	margin-top: 16px;
 	text-align: center;
 	color: #a0a0a0;
-	text-decoration: none;
 }
 	.footer_name a{
-		color: #a0a0a0;
 		text-decoration: none;
 	}
 	.footer_name a :hover {
