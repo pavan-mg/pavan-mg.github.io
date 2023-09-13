@@ -114,6 +114,7 @@ ul {
 #main_container {
 	width: 960px;
 	margin: 0 auto;
+	z-index: 999;
 }
 	#header {
 		width: 960px;
