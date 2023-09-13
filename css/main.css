@@ -114,7 +114,6 @@ ul {
 #main_container {
 	width: 960px;
 	margin: 0 auto;
-	top: 80px;
 }
 	#header {
 		width: 960px;
@@ -139,10 +138,12 @@ ul {
 				font-family: 'Lato', Helvetica, sans-serif;
 			}
 	#left_col {
+		margin-top: 80px;
 		width: 260px;
 		float: left;
 	}
 	#content_container {
+		margin-top: 80px;
 		width: 699px;
 		border-left: 1px solid #b5b5b5;
 		float: left;
