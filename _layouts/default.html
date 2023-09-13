@@ -6,34 +6,25 @@
   crossorigin="anonymous"
 >
 <link rel="icon" href="assets/pavanmg.jpg">
+<script>
+  var anchors = document.querySelectorAll("a");
+  for (var i = 0; i < anchors.length; i++) {
+    anchors[i].addEventListener("click", function(event) {
+      event.preventDefault();
+      var href = this.getAttribute("href");
+      var target = document.querySelector(href);
+      var offsetTop = target.offsetTop;
+      var navHeight = 80;
+      window.scrollTo({
+        top: offsetTop - navHeight,
+        behavior: "smooth"
+      });
+    });
+  }
+</script>
 <!-- MAIN CONTAINER -->
   <div id="main_container">
     <!-- HEADER -->
-    <script>
-      // Get all the anchor elements
-      var anchors = document.querySelectorAll("a");
-      // Loop through them and add a click event listener
-      for (var i = 0; i < anchors.length; i++) {
-        anchors[i].addEventListener("click", function(event) {
-          // Prevent the default behavior of jumping to the anchor
-          event.preventDefault();
-          // Get the href attribute of the clicked link
-          var href = this.getAttribute("href");
-          // Get the element with that id
-          var target = document.querySelector(href);
-          // Get the offset top of that element
-          var offsetTop = target.offsetTop;
-          // Subtract the height of the nav bar (adjust as needed)
-          var navHeight = 80;
-          // Scroll to that position with some animation
-          window.scrollTo({
-            top: offsetTop - navHeight,
-            behavior: "smooth"
-          });
-        });
-      }
-
-    </script>
     <div id="Home">
       <div id="header">
         <!-- LOGOTYPE/NAME -->
