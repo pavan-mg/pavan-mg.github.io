@@ -119,7 +119,6 @@ ul {
 		height: 80px;
 		width: 960px;
 		border-bottom: 1px solid #b5b5b5;
-		position: fixed;
 		z-index: 999;
 	}
 		.header_logotype_container {
