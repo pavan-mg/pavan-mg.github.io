@@ -19,7 +19,7 @@
 
 .block {
 	margin: 25px 30px;
-	top: 80px;
+	padding-top: 80px;
 }
 	.block h1 {
 		margin-left: -5px;
@@ -174,6 +174,7 @@ ul {
 	width: 120px;
 	height: 40px;
 	float: right;
+	margin-right: -8px;
 }
 	.download_button a {
 		text-decoration: none;
