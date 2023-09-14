@@ -143,7 +143,7 @@ ul {
 	}
 	#footer {
 		width: 960px;
-		height: 50px;
+		height: 45px;
 		border-top: 1px solid #b5b5b5;
 		display: inline-block;
 	}
@@ -278,7 +278,7 @@ ul {
 	}
 
 .footer_name {
-	margin-top: 16px;
+	margin-top: 15px;
 	text-align: center;
 	color: #a0a0a0;
 }
@@ -304,6 +304,7 @@ ul {
 		font-size: 15px;
 		width: 455px;
 		margin-top: 10px;
+		margin-bottom: 10px;
 	}
 	.profile_quote  .entypo-quote {
 		position: absolute;
