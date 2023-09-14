@@ -8,7 +8,7 @@
 }
 
 .block {
-	margin: 25px 30px;
+	margin: 20px 20px;
 }
 	.block h1 {
 		margin-left: -5px;
@@ -16,7 +16,7 @@
 	}
 
 .last.block {
-	margin-bottom: 110px;
+	margin-bottom: 40px;
 }
 
 .horizontal_list {
@@ -66,7 +66,7 @@ h1,h2,h3, h4 {
 
 blockquote {
 	font-style: italic;
-	margin: 25px 0;
+	margin: 20px 0;
 	padding-left: 20px;
 	border-left: 2px solid #48DA9B;
 	font-weight: 300;
@@ -191,7 +191,7 @@ ul {
 		text-decoration: none;
 		padding: 0 20px;
 		border-left: 1px solid #e4e3e8;
-		font-size: 16px;
+		font-size: 15px;
 		font-weight: 400;
 	}
 	.header_menu a.no_border{
@@ -224,7 +224,7 @@ ul {
 
 .hello_content,
 .contact_details_content {
-	margin-top: 25px;
+	margin-top: 20px;
 }
 
 .hello_content{
@@ -237,11 +237,26 @@ ul {
 	margin: 0;
 }
 .contact_details_content p.purple{
-	margin-top: 25px;
+	margin-top: 20px;
 }
 
+.social-icons {
+	font-size: 28;
+	margin-right: 10px;
+}
+	ul.social-icons {
+		margin-right: 10px;
+	}
+	.social-icons li {
+		height: 50px;
+		padding: 5px;
+	}
+	.social-icons a {
+		text-decoration: none;
+	}
+
 .send_message_button {
-	margin-top: 25px;
+	margin-top: 20px;
 	display: inline-block;
 	border-radius: 4px;
 	background-color: #48DA9B;
@@ -260,21 +275,6 @@ ul {
 	.send_message_button:hover span:after {
 		opacity: 1;
 		right: 0;
-	}
-
-.social-icons {
-	font-size: 28;
-	margin-right: 10px;
-}
-	ul.social-icons {
-		margin-right: 10px;
-	}
-	.social-icons li {
-		height: 50px;
-		padding: 5px;
-	}
-	.social-icons a {
-		text-decoration: none;
 	}
 
 .footer_name {
