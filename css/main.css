@@ -1,3 +1,10 @@
+/* Font */
+@font-face {
+    font-family: 'Comic-Relief';
+        src: url('/assets/fonts/comic-relief/ComicRelief.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+      }
 /* Utils */
 
 .clear {
