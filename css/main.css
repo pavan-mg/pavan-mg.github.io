@@ -67,7 +67,7 @@ h1,h2,h3, h4 {
 blockquote {
 	font-style: italic;
 	margin: 20px 0;
-	padding-left: 20px;
+	padding-left: 15px;
 	border-left: 2px solid #48DA9B;
 	font-weight: 300;
 }
@@ -245,7 +245,7 @@ ul {
 	margin-right: 10px;
 }
 	ul.social-icons {
-		margin-right: 10px;
+		margin-left: 10px;
 	}
 	.social-icons li {
 		height: 50px;
@@ -270,7 +270,7 @@ ul {
 	cursor: pointer;
 }  
 	.send_message_button:hover {
-		background: #208056;
+		background: #2aa36f;
 	} 
 	.send_message_button:hover span:after {
 		opacity: 1;
@@ -303,6 +303,7 @@ ul {
 	.profile_quote p {
 		font-size: 15px;
 		width: 455px;
+		margin-top: 10px;
 	}
 	.profile_quote  .entypo-quote {
 		position: absolute;
