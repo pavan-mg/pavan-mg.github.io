@@ -149,12 +149,10 @@ ul {
 		float: left;
 		border-top: 1px solid #b5b5b5;
 		border-right: 1px solid #b5b5b5;
-		margin-bottom: 20px;
 	}
 	#content_container {
 		margin-top: 80px;
 		width: 699px;
-		border-left: 1px solid #b5b5b5;
 		float: left;
 		border-top: 1px solid #b5b5b5;
 	}
@@ -274,6 +272,7 @@ ul {
 
 .send_message_button {
 	margin-top: 20px;
+	margin-bottom: 20px;
 	display: inline-block;
 	border-radius: 4px;
 	background-color: #48DA9B;
