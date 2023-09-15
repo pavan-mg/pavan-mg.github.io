@@ -116,7 +116,7 @@
     </div>
   </div>
     <!-- PROFILE CONTENT -->
-  <div class="show" id="Home">
+  <div class="panel" id="Home">
     <div id="content_container">		
       <div class="block">
         <h2>A few words about me</h2>
@@ -243,7 +243,7 @@
     function handleClick(e) {
       panels.forEach(panel => panel.classList.remove('show'));
       const { id } = e.target.dataset;
-      const selector = `.panel[id="${id}"]`;
+      const selector = `.panel[id="myHome"]`;
       document.querySelector(selector).classList.add('show');
          // Scroll to that position with some animation
       window.scrollTo({
