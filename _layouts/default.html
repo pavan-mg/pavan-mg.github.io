@@ -214,14 +214,15 @@
           // Get the href attribute of the clicked link
           var href = this.getAttribute("href");
           // Get the element with that id
-          var target = document.querySelector(href);
+          var id = href.replace("#", "");
           panels.forEach(panel => panel.classList.remove('show'));
           event.preventDefault();
           window.scrollTo({
             top: 0,
             behavior: "smooth"
           });
-          var div = document.getElementById(href)
+          var div = document.getElementById(id)
+          div.style.display = "block";
           console.log(href);
         });
       }
