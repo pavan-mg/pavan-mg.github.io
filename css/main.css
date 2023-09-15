@@ -1,15 +1,28 @@
 /* Font */
+
 @font-face {
     font-family: 'Comic-Relief';
     src: url('/assets/fonts/comic-relief/ComicRelief.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
       }
+
+/* Slide Animation */
+
+@keyframes slide {
+	from {
+		transform: translateX(0%);
+	}
+	to {
+		transform: translateX(100%);
+	}
+}
 /* Utils */
 
 .clear {
 	clear: both;
 }
+
 .purple {
 	color: #837c9a;
 }
@@ -49,7 +62,9 @@
 		padding-left: 0; 
 		text-indent: 0;
 	}
-
+	.div.slide {
+		animation: slide 1s ease-in-out;
+	}
 /* Main tags */
 
 body {
@@ -257,10 +272,10 @@ ul {
 
 .social-icons {
 	font-size: 30;
-	margin-left: 10px;
+	margin-right: 10px;
 }
 	ul.social-icons {
-		margin-left: 10px;
+		margin-right: 10px;
 	}
 	.social-icons li {
 		height: 50px;
@@ -272,7 +287,6 @@ ul {
 
 .send_message_button {
 	margin-top: 20px;
-	margin-bottom: 20px;
 	display: inline-block;
 	border-radius: 4px;
 	background-color: #48DA9B;
