@@ -161,16 +161,19 @@ ul {
 				font-family: 'Comic-Relief';
 			}
 	#left_col {
-		width: 260px;
+		width: 261px;
 		float: left;
 		border-top: 1px solid #b5b5b5;
 		border-right: 1px solid #b5b5b5;
+		box-sizing: border-box;
 	}
 	#content_container {
 		margin-top: 80px;
-		margin-left: 261px;
-		width: 699px;
+		margin-left: 260px;
+		width: 700px;
 		border-top: 1px solid #b5b5b5;
+		border-left: 1px solid #b5b5b5;
+		box-sizing: border-box;
 	}
 	#footer {
 		width: 960px;
