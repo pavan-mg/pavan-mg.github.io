@@ -270,21 +270,6 @@ ul {
 	margin-top: 20px;
 }
 
-.social-icons {
-	font-size: 30;
-	margin-right: 10px;
-}
-	ul.social-icons {
-		margin-right: 10px;
-	}
-	.social-icons li {
-		height: 50px;
-		padding: 5px;
-	}
-	.social-icons a {
-		text-decoration: none;
-	}
-
 .send_message_button {
 	margin-top: 20px;
 	display: inline-block;
@@ -305,6 +290,21 @@ ul {
 	.send_message_button:hover span:after {
 		opacity: 1;
 		right: 0;
+	}
+	
+.social-icons {
+	font-size: 30;
+	margin-right: 10px;
+}
+	ul.social-icons {
+		margin-right: 10px;
+	}
+	.social-icons li {
+		height: 50px;
+		padding: 5px;
+	}
+	.social-icons a {
+		text-decoration: none;
 	}
 
 .footer_name {
