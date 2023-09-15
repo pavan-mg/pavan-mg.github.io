@@ -276,7 +276,6 @@ ul {
 	border-radius: 4px;
 	background-color: #48DA9B;
 	text-align: center;
-	padding: 15px;
 	width: 170px;
 	transition: all 0.5s;
 	cursor: pointer;
@@ -292,6 +291,7 @@ ul {
 		text-decoration: None;
 		font-size: 20px;
 		color: rgb(69, 67, 67);
+		padding: 15px;
 	}
 	.send_message_button a:hover {
 		color: #e4e3e8;
