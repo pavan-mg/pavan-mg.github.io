@@ -219,7 +219,7 @@
           });
           /* Clear the content of all anchors */
           for (var j = 0; j < anchors.length; j++){
-            var pre_href = anchors[i].getAttribute("href");
+            var pre_href = anchors[j].getAttribute("href");
             var pre_id = pre_href.replace("#", "");
             var pre_div = document.getElementById(pre_id)
             pre_div.style.display = "none";
