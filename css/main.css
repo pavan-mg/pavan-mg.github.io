@@ -279,6 +279,7 @@ ul {
 	width: 170px;
 	transition: all 0.5s;
 	cursor: pointer;
+	padding: 15px;
 }  
 	.send_message_button:hover {
 		background: #2aa36f;
