@@ -113,14 +113,6 @@
         <span>Send Message</span>
       </a>
     </div>
-    <!-- FOOTER -->
-    <div id="footer">
-      <p class="footer_name">Copyright © 2023 | This site is
-        <i class="fas fa-code"></i> with <i class="fas fa-heart"></i> by
-        <a href="https://github.com/pavan-mg/pavan-mg.github.io" target="_blank"> PAVAN M G </a>
-        | All Rights Reserved
-      </p>
-  </div>
   </div>
     <!-- PROFILE CONTENT -->
   <div class="show" id="Home">
@@ -229,10 +221,18 @@
       <div class="clear"></div>
     </div>
   </div>
+  <!-- FOOTER -->
+  <div id="footer">
+    <p class="footer_name">Copyright © 2023 | This site is
+      <i class="fas fa-code"></i> with <i class="fas fa-heart"></i> by
+      <a href="https://github.com/pavan-mg/pavan-mg.github.io" target="_blank"> PAVAN M G </a>
+      | All Rights Reserved
+    </p>
+  </div>
   <!-- SCRIPT -->
   <script>
     // Cache out buttons container, and all of the panels
-    const buttons = document.querySelectorAll('.header_menu a');
+    const buttons = document.querySelectorAll('.header_menu');
     const panels = document.querySelectorAll('panel');
 
     // Add an event listener to the buttons container
@@ -251,7 +251,7 @@
       // help form the selector. Basically it says find me an element
       // with a "panel" class which also has an id that matches the id of
       // the button's data attribute which we just retrieved.
-      const selector = `.panel[id="${id}"]`;
+      const selector = `.panel[id="Education"]`;
       // Select the `div` and, using classList, again add the
       // show class
       document.querySelector(selector).classList.add('show');
