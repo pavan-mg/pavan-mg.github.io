@@ -232,14 +232,11 @@
   </div>
   <!-- SCRIPT -->
   <script>
-    // Cache out buttons container, and all of the panels
     const anchor = document.querySelectorAll('header_menu a');
     const home = document.querySelectorAll('show');
     const panels = document.querySelectorAll('panel');
 
-    // Add an event listener to the buttons container
     anchor.addEventListener('click', handleClick);
-    // When a child element of `buttons` is clicked
     function handleClick(e) {
       home.forEach(home => home.classList.remove('show')); 
       panels.forEach(panel => panel.classList.remove('show'));
