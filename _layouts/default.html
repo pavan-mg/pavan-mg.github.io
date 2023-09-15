@@ -233,7 +233,7 @@
   <!-- SCRIPT -->
   <script>
     // Cache out buttons container, and all of the panels
-    const anchor = document.getElementByClassName('header_menu');
+    const anchor = document.querySelectorAll('header_menu a');
     const home = document.querySelectorAll('show');
     const panels = document.querySelectorAll('panel');
 
@@ -241,7 +241,7 @@
     anchor.addEventListener('click', handleClick);
     // When a child element of `buttons` is clicked
     function handleClick(e) {
-      home.forEach(home => home.classList.remove('show'));
+      home.forEach(home => home.classList.remove('show')); 
       panels.forEach(panel => panel.classList.remove('show'));
       const { id } = e.target.dataset;
       const selector = `.panel[id="myHome"]`;
