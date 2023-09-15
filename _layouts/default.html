@@ -217,6 +217,7 @@
         var href = this.getAttribute("href");
         // Get the element with that id
         var target = document.querySelector(href);
+        document.getElementById("#Home").style.display = None;
         panels.forEach(panel => panel.classList.remove('show'));
         event.preventDefault();
         window.scrollTo({

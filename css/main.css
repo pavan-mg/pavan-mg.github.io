@@ -148,6 +148,8 @@ ul {
 		width: 260px;
 		float: left;
 		border-top: 1px solid #b5b5b5;
+		border-right: 1px solid #b5b5b5;
+		margin-bottom: 20px;
 	}
 	#content_container {
 		margin-top: 80px;
