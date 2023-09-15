@@ -47,7 +47,7 @@
 	display: block; 
 }
 
-.div.slide {
+.slide {
 	animation: slide 1s ease-in-out;
 }
 
@@ -163,15 +163,15 @@ ul {
 	#left_col {
 		margin-top: 80px;
 		width: 260px;
-		float: left;
 		border-top: 1px solid #b5b5b5;
 		border-right: 1px solid #b5b5b5;
 	}
 	#content_container {
 		margin-top: 80px;
+		margin-left: 260px;
 		width: 699px;
-		float: left;
 		border-top: 1px solid #b5b5b5;
+		border-left: 1px solid #b5b5b5;
 	}
 	#footer {
 		width: 960px;
