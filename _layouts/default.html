@@ -202,30 +202,30 @@
         | All Rights Reserved
       </p>
     </div>
-  </div>
-  <!-- SCRIPT -->
-  <script>
-    // Get all the anchor elements
-    var headerMenu = document.getElementsByClassName('header_menu')[0];
-    var anchors = headerMenu.getElementsByTagName('a');
-    const panels = document.querySelectorAll('panel');
-    // Loop through them and add a click event listener
-    for (var i = 0; i < anchors.length; i++) {
-      anchors[i].addEventListener("click", function(event) {
-        // Get the href attribute of the clicked link
-        var href = this.getAttribute("href");
-        // Get the element with that id
-        var target = document.querySelector(href);
-        document.getElementById("#Home").style.display = None;
-        panels.forEach(panel => panel.classList.remove('show'));
-        event.preventDefault();
-        window.scrollTo({
-          top: 0,
-          behavior: "smooth"
+    <!-- SCRIPT -->
+    <script>
+      // Get all the anchor elements
+      var headerMenu = document.getElementsByClassName('header_menu')[0];
+      var anchors = headerMenu.getElementsByTagName('a');
+      const panels = document.querySelectorAll('panel');
+      // Loop through them and add a click event listener
+      for (var i = 0; i < anchors.length; i++) {
+        anchors[i].addEventListener("click", function(event) {
+          // Get the href attribute of the clicked link
+          var href = this.getAttribute("href");
+          // Get the element with that id
+          var target = document.querySelector(href);
+          document.getElementById("#Home").style.display = None;
+          panels.forEach(panel => panel.classList.remove('show'));
+          event.preventDefault();
+          window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+          });
+          var div = document.getElementById(href)
+          div.style.display = "block";
+          console.log(div);
         });
-        var div = document.getElementById(href)
-        div.style.display = "block";
-        console.log(div);
-      });
-    }
-  </script>
+      }
+    </script>
+  </div>
