@@ -243,14 +243,15 @@
     function handleClick(e) {
       home.forEach(home => home.classList.remove('show')); 
       panels.forEach(panel => panel.classList.remove('show'));
-      const { id } = e.target.dataset;
-      const selector = `.panel[id="myHome"]`;
-      document.querySelector(selector).classList.add('show');
-         // Scroll to that position with some animation
+      // Scroll to that position with some animation
       window.scrollTo({
         top: 0,
         behavior: "smooth"
       });
+      const { id } = e.target.dataset;
+      const selector = `.panel[id="myEducation"]`;
+      document.querySelector(selector).classList.add('show');
+
       //}
     }
   </script>
