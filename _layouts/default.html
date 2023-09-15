@@ -207,7 +207,6 @@
       // Get all the anchor elements
       var headerMenu = document.getElementsByClassName('header_menu')[0];
       var anchors = headerMenu.getElementsByTagName('a');
-      const panels = document.querySelectorAll('panel');
       // Loop through them and add a click event listener
       for (var i = 0; i < anchors.length; i++) {
         anchors[i].addEventListener("click", function(event) {
@@ -215,19 +214,12 @@
             var pre_href = this.getAttribute("href");
             var pre_id = pre_href.replace("#", "");
             var pre_div = document.getElementById(id)
-            _pre_div.style.display = "none";
+            pre_div.style.display = "none";
           }
           var href = this.getAttribute("href");
           var id = href.replace("#", "");
-          panels.forEach(panel => panel.classList.remove('show'));
-          event.preventDefault();
-          window.scrollTo({
-            top: 0,
-            behavior: "smooth"
-          });
           var div = document.getElementById(id)
           div.style.display = "block";
-          console.log(href);
         });
       }
     </script>
