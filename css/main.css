@@ -47,6 +47,10 @@
 	display: block; 
 }
 
+.div.slide {
+	animation: slide 1s ease-in-out;
+}
+
 .horizontal_list {
 	margin: 0;
 	padding: 0;
@@ -62,9 +66,7 @@
 		padding-left: 0; 
 		text-indent: 0;
 	}
-	.div.slide {
-		animation: slide 1s ease-in-out;
-	}
+
 /* Main tags */
 
 body {
