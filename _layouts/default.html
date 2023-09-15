@@ -229,8 +229,8 @@
           var href = this.getAttribute("href");
           var id = href.replace("#", "");
           var div = document.getElementById(id)
-          div.style.display = "block";
           div.classList.add("slide");
+          div.style.display = "block";
           div.classList.toggle("slide");
         });
       }
