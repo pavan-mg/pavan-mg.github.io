@@ -29,7 +29,7 @@
           <li><a href="#Projects">Featured Projects</a></li>
           <li><a href="#Awards">Awards</a></li>
           <script>
-            // Get all the anchor elements
+            /*// Get all the anchor elements
             var anchors = document.querySelectorAll("a");
             // Loop through them and add a click event listener
             for (var i = 0; i < anchors.length; i++) {
@@ -52,7 +52,7 @@
                   });
                 }
               });
-            }
+            }*/
           </script>
         </ul>
       </div>
@@ -115,7 +115,7 @@
     </div>
   </div>
     <!-- PROFILE CONTENT -->
-  <div id="Home">
+  <div class="panel" id="Home">
     <div id="content_container">		
       <div class="block">
         <h2>A few words about me</h2>
@@ -158,7 +158,7 @@
       </div>
     </div>
   </div>
-  <div id="Education">
+  <div class="panel" id="Education">
     <div id="content_container">
       <div class="block">
         <h2>Educational Details</h2>
@@ -169,7 +169,7 @@
       <div class="clear"></div>
     </div>
   </div>
-  <div id="Skills">
+  <div class="panel" id="Skills">
     <div id="content_container">
       <div class="block">
         <h2>Skills</h2>
@@ -178,7 +178,7 @@
       <div class="clear"></div>
     </div>
   </div>
-  <div id="Experience">
+  <div class="panel" id="Experience">
     <div id="content_container">
       <div class="block">
         <h2>Work Experience</h2>
@@ -189,7 +189,7 @@
       <div class="clear"></div>
     </div>
   </div>
-  <div id="Projects">
+  <div class="panel" id="Projects">
     <div id="content_container">
       <div class="block">
         <h2>Featured Projects</h2>
@@ -199,7 +199,7 @@
       <div class="clear"></div>
     </div>
   </div>
-  <div id="Awards">
+  <div class="panel" id="Awards">
     <div id="content_container">
       <div class="last block">
         <h2>Scholastic Achivements and Awards</h2>
@@ -229,3 +229,32 @@
       | All Rights Reserved
     </p>
   </div>
+  <!-- SCRIPT -->
+  <script>
+    // Cache out buttons container, and all of the panels
+    const buttons = document.querySelector('header_menu');
+    const panels = document.querySelectorAll('panel');
+
+    // Add an event listener to the buttons container
+    buttons.addEventListener('click', handleClick);
+    // When a child element of `buttons` is clicked
+    function handleClick(e) {
+        // Check to see if its a button
+      //if (e.target.matches('header_menu a')) {
+      // For every element in the `panels` node list use `classList`
+      // to remove the show class
+      panels.forEach(panel => panel.classList.remove('show'));
+      // "Destructure" the `id` from the button's data set
+      const { id } = e.target.dataset;
+      // Create a selector that will match the corresponding
+      // panel with that id. We're using a template string to
+      // help form the selector. Basically it says find me an element
+      // with a "panel" class which also has an id that matches the id of
+      // the button's data attribute which we just retrieved.
+      const selector = `.panel[id="${id}"]`;
+      // Select the `div` and, using classList, again add the
+      // show class
+      document.querySelector(selector).classList.add('show');
+      //}
+    }
+  </script>
