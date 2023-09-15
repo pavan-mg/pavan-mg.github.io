@@ -9,54 +9,52 @@
 <!-- MAIN CONTAINER -->
   <div id="main_container">
     <!-- HEADER -->
-    <div id="Home">
-      <div id="header">
-        <!-- LOGOTYPE/NAME -->
-        <div class="header_logotype_container">
-          <h1 class="logotype_name">Pavan M G</h1>
-          <h2 class="logotype_occupation">Software Engineer, Qualcomm</h2>
-        </div>
-        <!-- MAIN MENU -->
-        <div class="header_menu_container">
-          <ul class="download_button horizontal_list">
-            <li><a href="/assets/Pavan M G CV.pdf" target="_blank">Download CV</a></li>
-          </ul>
-          <div class="clear"></div>
-          <ul class="header_menu horizontal_list">
-            <li><a class="no_border" href="#Home">Home</a></li>
-            <li><a href="#Education">Education</a></li>
-            <li><a href="#Skills">Skills</a></li>
-            <li><a href="#Experience">Work Experience</a></li>
-            <li><a href="#Projects">Featured Projects</a></li>
-            <li><a href="#Awards">Awards</a></li>
-            <script>
-              // Get all the anchor elements
-              var anchors = document.querySelectorAll("a");
-              // Loop through them and add a click event listener
-              for (var i = 0; i < anchors.length; i++) {
-                anchors[i].addEventListener("click", function(event) {
-                  // Get the href attribute of the clicked link
-                  var href = this.getAttribute("href");
-                  // Get the element with that id
-                  var target = document.querySelector(href);
-                  if( href !== "/assets/Pavan M G CV.pdf" ) {
-                    // Prevent the default behavior of jumping to the anchor
-                    event.preventDefault();
-                    // Get the offset top of that element
-                    var offsetTop = target.offsetTop;
-                    // Subtract the height of the nav bar (adjust as needed)
-                    var navHeight = 100;
-                    // Scroll to that position with some animation
-                    window.scrollTo({
-                      top: offsetTop - navHeight,
-                      behavior: "smooth"
-                    });
-                  }
-                });
-              }
-            </script>
-          </ul>
-        </div>
+    <div id="header">
+      <!-- LOGOTYPE/NAME -->
+      <div class="header_logotype_container">
+        <h1 class="logotype_name">Pavan M G</h1>
+        <h2 class="logotype_occupation">Software Engineer, Qualcomm</h2>
+      </div>
+      <!-- MAIN MENU -->
+      <div class="header_menu_container">
+        <ul class="download_button horizontal_list">
+          <li><a href="/assets/Pavan M G CV.pdf" target="_blank">Download CV</a></li>
+        </ul>
+        <div class="clear"></div>
+        <ul class="header_menu horizontal_list">
+          <li><a class="no_border" href="#Home">Home</a></li>
+          <li><a href="#Education">Education</a></li>
+          <li><a href="#Skills">Skills</a></li>
+          <li><a href="#Experience">Work Experience</a></li>
+          <li><a href="#Projects">Featured Projects</a></li>
+          <li><a href="#Awards">Awards</a></li>
+          <script>
+            // Get all the anchor elements
+            var anchors = document.querySelectorAll("a");
+            // Loop through them and add a click event listener
+            for (var i = 0; i < anchors.length; i++) {
+              anchors[i].addEventListener("click", function(event) {
+                // Get the href attribute of the clicked link
+                var href = this.getAttribute("href");
+                // Get the element with that id
+                var target = document.querySelector(href);
+                if( href !== "/assets/Pavan M G CV.pdf" ) {
+                  // Prevent the default behavior of jumping to the anchor
+                  event.preventDefault();
+                  // Get the offset top of that element
+                  var offsetTop = target.offsetTop;
+                  // Subtract the height of the nav bar (adjust as needed)
+                  var navHeight = 100;
+                  // Scroll to that position with some animation
+                  window.scrollTo({
+                    top: offsetTop - navHeight,
+                    behavior: "smooth"
+                  });
+                }
+              });
+            }
+          </script>
+        </ul>
       </div>
     </div>
     <!-- LEFT COL -->
@@ -115,7 +113,9 @@
         <span>Send Message</span>
       </a>
     </div>
+  </div>
     <!-- PROFILE CONTENT -->
+  <div id="Home">
     <div id="content_container">		
       <div class="block">
         <h2>A few words about me</h2>
@@ -156,66 +156,76 @@
         </ul>
         <div class="clear"></div>
       </div>
-      <div id="Education">
-        <div class="block">
-          <h2>Educational Details</h2>
-          <p>Indian Institute of Technology, Varanasi — B. Tech Electrical Engineering</p>	
-          <p>FIITJEE P U College, Bengaluru — XII Standard PCMB</p>	
-          <p>Abhinava Bharathi High School, Mandya — X Standard</p>				
-        </div>
-        <div class="clear"></div>
-      </div>
-      <div id="Skills">
-        <div class="block">
-          <h2>Skills</h2>
-          <p>Programming, Debugging, Problem Solving, etc.</p>				
-        </div>
-        <div class="clear"></div>
-      </div>
-      <div id="Experience">
-        <div class="block">
-          <h2>Work Experience</h2>
-          <p>Engineer at DDR Software Systems, Qualcomm.</p>	
-          <p>Associate Engineer at DDR Software Systems, Qualcomm.</p>	
-          <p>Interim Engineering Intern at DDR Software Systems, Qualcomm.</p>				
-        </div>
-        <div class="clear"></div>
-      </div>
-      <div id="Projects">
-        <div class="block">
-          <h2>Featured Projects</h2>
-          <p>Fully functional Self Drving Car Simulation fuelled entirely by Deep Learning.</p>
-          <p>Modelling and Simulation of Photo Voltaic Cell.</p>		
-        </div>
-        <div class="clear"></div>
-      </div>
-      <div id="Awards">
-        <div class="last block">
-          <h2>Scholastic Achivements and Awards</h2>
-          <ul>
-            <li>
-              Secured, All India Ranking of 3,192 in JEE Advanced (99.7 Percentile), 
-              among 2.2 lakh selected applicants out of 1.2 Million.
-            </li>
-            <li>
-              Awarded Certificate of Merit (Rank 15) in Karnataka Regional Mathematical Olympiad. 
-              Among the top 700 in the Country to qualify for Indian National Mathematical Olympiad
-            </li>
-            <li>
-              Secured State Rank 18 in National Talent Search Examination (Stage 1) 2015 by DSERT, 
-              Karnataka (out of 70,000).
-            </li>	
-          </ul>			
-        </div>
-        <div class="clear"></div>
-      </div>
     </div>
-    <!-- FOOTER -->
-    <div id="footer">
-      <p class="footer_name">Copyright © 2023 | This site is
-        <i class="fas fa-code"></i> with <i class="fas fa-heart"></i> by
-        <a href="https://github.com/pavan-mg/pavan-mg.github.io" target="_blank"> PAVAN M G </a>
-        | All Rights Reserved
-      </p>
+  </div>
+  <div id="Education">
+    <div id="content_container">
+      <div class="block">
+        <h2>Educational Details</h2>
+        <p>Indian Institute of Technology, Varanasi — B. Tech Electrical Engineering</p>	
+        <p>FIITJEE P U College, Bengaluru — XII Standard PCMB</p>	
+        <p>Abhinava Bharathi High School, Mandya — X Standard</p>				
+      </div>
+      <div class="clear"></div>
     </div>
+  </div>
+  <div id="Skills">
+    <div id="content_container">
+      <div class="block">
+        <h2>Skills</h2>
+        <p>Programming, Debugging, Problem Solving, etc.</p>				
+      </div>
+      <div class="clear"></div>
+    </div>
+  </div>
+  <div id="Experience">
+    <div id="content_container">
+      <div class="block">
+        <h2>Work Experience</h2>
+        <p>Engineer at DDR Software Systems, Qualcomm.</p>	
+        <p>Associate Engineer at DDR Software Systems, Qualcomm.</p>	
+        <p>Interim Engineering Intern at DDR Software Systems, Qualcomm.</p>				
+      </div>
+      <div class="clear"></div>
+    </div>
+  </div>
+  <div id="Projects">
+    <div id="content_container">
+      <div class="block">
+        <h2>Featured Projects</h2>
+        <p>Fully functional Self Drving Car Simulation fuelled entirely by Deep Learning.</p>
+        <p>Modelling and Simulation of Photo Voltaic Cell.</p>		
+      </div>
+      <div class="clear"></div>
+    </div>
+  </div>
+  <div id="Awards">
+    <div id="content_container">
+      <div class="last block">
+        <h2>Scholastic Achivements and Awards</h2>
+        <ul>
+          <li>
+            Secured, All India Ranking of 3,192 in JEE Advanced (99.7 Percentile), 
+            among 2.2 lakh selected applicants out of 1.2 Million.
+          </li>
+          <li>
+            Awarded Certificate of Merit (Rank 15) in Karnataka Regional Mathematical Olympiad. 
+            Among the top 700 in the Country to qualify for Indian National Mathematical Olympiad
+          </li>
+          <li>
+            Secured State Rank 18 in National Talent Search Examination (Stage 1) 2015 by DSERT, 
+            Karnataka (out of 70,000).
+          </li>	
+        </ul>			
+      </div>
+      <div class="clear"></div>
+    </div>
+  </div>
+  <!-- FOOTER -->
+  <div id="footer">
+    <p class="footer_name">Copyright © 2023 | This site is
+      <i class="fas fa-code"></i> with <i class="fas fa-heart"></i> by
+      <a href="https://github.com/pavan-mg/pavan-mg.github.io" target="_blank"> PAVAN M G </a>
+      | All Rights Reserved
+    </p>
   </div>
