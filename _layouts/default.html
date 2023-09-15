@@ -22,12 +22,12 @@
         </ul>
         <div class="clear"></div>
         <ul class="header_menu horizontal_list">
-          <li><a data-id="Home" class="no_border">Home</a></li>
-          <li><a data-id="Education">Education</a></li>
-          <li><a data-id="Skills">Skills</a></li>
-          <li><a data-id="Experience">Work Experience</a></li>
-          <li><a data-id="Projects">Featured Projects</a></li>
-          <li><a data-id="Awards">Awards</a></li>
+          <li><a data-id="myHome" href="#Home" class="no_border">Home</a></li>
+          <li><a data-id="myEducation" href="#Education">Education</a></li>
+          <li><a data-id="mySkills" href="#Skills">Skills</a></li>
+          <li><a data-id="myExperience" href="#Experience">Work Experience</a></li>
+          <li><a data-id="myProjects" href="#Projects">Featured Projects</a></li>
+          <li><a data-id="myAwards" href="#Awards">Awards</a></li>
           <script>
             /*// Get all the anchor elements
             var anchors = document.querySelectorAll("a");
@@ -234,6 +234,7 @@
   <script>
     // Cache out buttons container, and all of the panels
     const buttons = document.querySelectorAll('.header_menu');
+    const home = document.querySelectorAll('show');
     const panels = document.querySelectorAll('panel');
 
     // Add an event listener to the buttons container
