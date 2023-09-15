@@ -299,7 +299,6 @@ ul {
 	}
 
 .social-icons {
-	font-size: 30;
 	margin-top: 20px;
 	margin-bottom: 20px;
 }
@@ -312,6 +311,7 @@ ul {
 	}
 	.social-icons a {
 		text-decoration: none;
+		font-size: 30;
 	}
 
 .footer_name {
