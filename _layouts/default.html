@@ -207,9 +207,15 @@
       // Get all the anchor elements
       var headerMenu = document.getElementsByClassName('header_menu')[0];
       var anchors = headerMenu.getElementsByTagName('a');
+      const panels = document.querySelectorAll('panel');
       // Loop through them and add a click event listener
       for (var i = 0; i < anchors.length; i++) {
         anchors[i].addEventListener("click", function(event) {
+          event.preventDefault();
+          window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+          });
           for (var j = 0; j < anchors.length; j++){
             var pre_href = this.getAttribute("href");
             var pre_id = pre_href.replace("#", "");
