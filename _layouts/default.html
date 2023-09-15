@@ -87,7 +87,7 @@
         <span>Send Message</span>
       </a>
     </div>
-      <!-- PROFILE CONTENT -->
+    <!-- PROFILE CONTENT -->
     <div class="show" id="Home">
       <div id="content_container">		
         <div class="block">
@@ -206,8 +206,10 @@
 
   <!-- SCRIPT -->
   <script>
-    /*// Get all the anchor elements
-    var anchors = document.querySelectorAll("a");
+    // Get all the anchor elements
+    var headerMenu = document.getElementsByClassName('header_menu')[0];
+    var anchors = headerMenu.getElementsByTagName('a');
+    const panels = document.querySelectorAll('panel');
     // Loop through them and add a click event listener
     for (var i = 0; i < anchors.length; i++) {
       anchors[i].addEventListener("click", function(event) {
@@ -215,39 +217,14 @@
         var href = this.getAttribute("href");
         // Get the element with that id
         var target = document.querySelector(href);
-        if( href !== "/assets/Pavan M G CV.pdf" ) {
-          // Prevent the default behavior of jumping to the anchor
-          panels.forEach(panel => panel.classList.remove('show'));
-          event.preventDefault();
-          // Get the offset top of that element
-          var offsetTop = target.offsetTop;
-          // Subtract the height of the nav bar (adjust as needed)
-          var navHeight = 100;
-          // Scroll to that position with some animation
-          window.scrollTo({
-            top: offsetTop - navHeight,
-            behavior: "smooth"
-          });
-        }
+        panels.forEach(panel => panel.classList.remove('show'));
+        event.preventDefault();
+        window.scrollTo({
+          top: 0,
+          behavior: "smooth"
+        });
+        var div = document.getElementById(href)
+        div.style.display = "block";
       });
-    }*/
-    var headerMenu = document.getElementsByClassName('header_menu')[0];
-    var anchors = headerMenu.getElementsByTagName('a');
-    const panels = document.querySelectorAll('panel');
-
-    anchors.addEventListener('click', handleClick);
-    function handleClick(event) {
-      event.preventDefault();
-      panels.forEach(panel => panel.classList.remove('show'));
-      // Scroll to that position with some animation
-      window.scrollTo({
-        top: 0,
-        behavior: "smooth"
-      });
-      var href = this.getAttribute("href");
-      var div = document.getElementById(href)
-      div.style.display = "block";
-
-      //}
     }
   </script>
