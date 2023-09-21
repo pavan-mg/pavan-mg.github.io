@@ -22,13 +22,13 @@
   <script>
     /* Add a event listener for Loading... */
     window.addEventListener("load", () => {
-    const loader = document.querySelector(".loader");
-    /* Add Class to hide Loader... */
-    loader.classList.add("loader--hidden");
-    loader.addEventListener("transitionend", () => {
-    /* Remove Loaded Class once Page is Loaded... */
-    document.body.removeChild(loader);
-    });
+      const loader = document.querySelector(".loader");
+      /* Add Class to hide Loader... */
+      loader.classList.add("loader--hidden");
+      loader.addEventListener("transitionend", () => {
+      /* Remove Loaded Class once Page is Loaded... */
+        document.body.removeChild(loader);
+      });
     });
   </script>
   <!-- MAIN CONTAINER -->
@@ -179,7 +179,7 @@
       </div>
     </div>
     <!-- SKILLS CONTENT -->
-    <div class="panel" id="Skills">
+    <div class="panel slide" id="Skills">
       <div id="content_container">
         <div class="block">
           <h2>Skills</h2>
@@ -297,7 +297,6 @@
           var href = this.getAttribute("href");
           var id = href.replace("#", "");
           var div = document.getElementById(id)
-          div.classList.add("slide");
           div.style.display = "block";
           div.classList.toggle("slide");
         });
