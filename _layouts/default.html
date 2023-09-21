@@ -27,7 +27,7 @@
       loader.classList.add("loader--hidden");
       loader.addEventListener("transitionend", () => {
       /* Remove Loaded Class once Page is Loaded... */
-        document.body.removeChild(loader);
+        loader.classList.remove("loader");
       });
     });
   </script>
