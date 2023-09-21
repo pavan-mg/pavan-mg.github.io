@@ -214,11 +214,9 @@ ul {
 	}
 	#content_container {
 		margin-top: 80px;
-		margin-left: 260px;
 		width: 700px;
 		float: left;
 		border-top: 1px solid #b5b5b5;
-		border-left: 1px solid #b5b5b5;
 		box-sizing: border-box;
 	}
 	#footer {
