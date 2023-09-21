@@ -37,15 +37,23 @@
 	display: block; 
 }
 
-.slide {
-	animation: slide 1s ease-in-out;
+.fade {
+	animation: fadeInFromNone 1s ease-in-out;
 }
-	@keyframes slide {
-		from {
-			transform: translateX(100%);
+	@keyframes fadeInFromNone {
+		0% {
+			display: none;
+			opacity: 0;
 		}
-		to {
-			transform: translateX(0%);
+
+		1% {
+			display: block;
+			opacity: 0;
+		}
+
+		100% {
+			display: block;
+			opacity: 1;
 		}
 	}
 
