@@ -1,3 +1,310 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="en">
+  <!-- HEAD -->
+  <head>
+    <title>Pavan M G Profile</title>
+    <link rel='stylesheet' type='text/css' href="/css/main.css">
+    <link 
+      rel="stylesheet" 
+      href="https://use.fontawesome.com/releases/v6.4.2/css/all.css" 
+      integrity="sha384-blOohCVdhjmtROpu8+CfTnUWham9nkX7P7OZQMst+RUnhtoY/9qemFAkIKOYxDI3" 
+      crossorigin="anonymous"
+    >
+    <link rel="icon" href="assets/pavanmg.jpg">
+    <meta charset="UTF-8">
+    <meta name="description" content="Pavan M G Profile">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Pavan M G">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <!-- LOADING -->
+  <div class="loader"></div>
+  <script>
+    /* Add a event listener for Loading... */
+    window.addEventListener("load", () => {
+      const loader = document.querySelector(".loader");
+      /* Add Class to hide Loader... */
+      loader.classList.add("loader--hidden");
+      loader.addEventListener("transitionend", () => {
+      /* Remove Loaded Class once Page is Loaded... */
+        loader.classList.remove("loader");
+      });
+    });
+  </script>
+  <!-- MAIN CONTAINER -->
+  <div id="main_container">
+    <!-- HEADER -->
+    <div id="header">
+      <!-- LOGOTYPE/NAME -->
+      <div class="header_logotype_container">
+        <h1 class="logotype_name">Pavan M G</h1>
+        <h2 class="logotype_occupation">Software Engineer, Qualcomm</h2>
+      </div>
+      <!-- MAIN MENU -->
+      <div class="header_menu_container">
+        <ul class="download_button horizontal_list">
+          <li><a href="/assets/Pavan M G CV.pdf" target="_blank">Download CV</a></li>
+        </ul>
+        <div class="clear"></div>
+        <ul class="header_menu horizontal_list">
+          <li><a href="#Home" class="no_border">Home</a></li>
+          <li><a href="#Education">Education</a></li>
+          <li><a href="#Skills">Skills</a></li>
+          <li><a href="#Experience">Work Experience</a></li>
+          <li><a href="#Projects">Featured Projects</a></li>
+          <li><a href="#Awards">Awards</a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- LEFT COL -->
+    <div id="left_col">
+      <div class="profile_frame">
+        <div class="profile_picture"></div>
+      </div>
+      <div class="hello_content">
+        <h2>Hello!</h2>
+        <p>
+          I am Pavan, currently working as a DDR Software Systems Engineer 
+          at Qualcomm India Private Limited.
+        </p>
+      </div>
+      <div class="contact_details_content">
+        <h2>Contact details</h2>
+        <p class="purple">Email:</p>
+        <p>pavanmggp@gmail.com</p>
+        <p class="purple">Address:</p>
+        <p>Hitech City, Madhapur</p>
+        <p>Hyderabad, India - 500081</p>
+      </div>
+      <div class = send_message_button>
+        <a 
+        href="mailto:pavanmggp@gmail.com" >
+        <span>Send Message</span>
+        </a>
+      </div>
+      <div class="social-icons">
+        <h2>Follow me on</h2>
+        <ul class="horizontal_list">
+          <li>
+            <a href="https://www.instagram.com/pavan.mg/" 
+            target="_blank"
+            title="Instagram: pavan.mg"
+            frmappuse="1"> 
+            <i class="fab fa-instagram"></i></a>
+          </li>
+          <li>
+            <a href="https://www.twitter.com/pavanm07" 
+            target="_blank"
+            title="X(Twitter): pavanm07"
+            frmappuse="1"> 
+            <i class="fab fa-x-twitter"></i></a></li>
+          <li>
+            <a href="https://www.facebook.com/pavanm07/" 
+              target="_blank"
+              title="Facebook: pavanm07"
+              frmappuse="1"> 
+              <i class="fab fa-facebook"></i></a>
+          </li>
+          <li>
+            <a href="https://www.github.com/pavan-mg" 
+              target="_blank"
+              title="GitHub: pavan-mg"
+              frmappuse="1"> 
+            <i class="fab fa-github"></i></a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/pavan-mg/" 
+              target="_blank"
+              title="Linkedin: pavan-mg"
+              frmappuse="1"> 
+            <i class="fab fa-linkedin"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- PROFILE CONTENT -->
+    <div class="show" id="Home">
+      <div class="fade" id="content_container">		
+        <div class="block">
+          <h2>A few words about me</h2>
+          <blockquote class="profile_quote">
+            <p>
+              "To give real service, you must add something which cannot 
+              be bought or measured with money."
+            </p>
+            <p>Sir.M.Vishvesvaraya</p>
+          </blockquote>
+        </div>
+        <div class="block">
+          <p>
+            Until now, in my life, I change from active moments 
+            with a lot of variety, challenges and improvisations, 
+            to moments of tranquility and stability, being difficult 
+            to stay in a place during a long time. 
+            I consider myself a tolerant and respectful person 
+            with open mind and quite honest. 
+            I really like to listen people stories and backgrounds 
+            and their different experiences around the world.
+          </p>				
+          <h2>Interests & Hobbies</h2>
+          <p>
+            I'm passionate about technology and human behavior, both determine 
+            almost all my interests and hobbies:
+          </p>
+          <ul>
+            <li>Visiting new places</li>
+            <li>Meeting people</li>
+            <li>Having new experiences</li>
+            <li>Hiking and Biking</li>
+            <li>Web Developing</li>
+            <li>Computer Gamming</li>
+            <li>Manga and Anime</li>
+          </ul>
+        </div>
+        <div class="clear"></div>
+      </div>
+    </div>
+    <!-- EDUCATION CONTENT -->
+    <div class="panel" id="Education">
+      <div class="fade" id="content_container">
+        <div class="block">
+          <h2>Educational Details</h2>
+          <blockquote class="profile_quote">
+            <p>
+              "To give real service, you must add something which cannot 
+              be bought or measured with money."
+            </p>
+            <p>Sir.M.Vishvesvaraya</p>
+          </blockquote>
+          <p>Indian Institute of Technology, Varanasi — B. Tech Electrical Engineering</p>	
+          <p>FIITJEE P U College, Bengaluru — XII Standard PCMB</p>	
+          <p>Abhinava Bharathi High School, Mandya — X Standard</p>				
+        </div>
+        <div class="clear"></div>
+      </div>
+    </div>
+    <!-- SKILLS CONTENT -->
+    <div class="panel" id="Skills">
+      <div class="fade" id="content_container">
+        <div class="block">
+          <h2>Skills</h2>
+          <blockquote class="profile_quote">
+            <p>
+              "To give real service, you must add something which cannot 
+              be bought or measured with money."
+            </p>
+            <p>Sir.M.Vishvesvaraya</p>
+          </blockquote>
+          <p>Programming, Debugging, Problem Solving, etc.</p>				
+        </div>
+        <div class="clear"></div>
+      </div>
+    </div>
+    <!-- EXPERIENCE CONTENT -->
+    <div class="panel" id="Experience">
+      <div class="fade" id="content_container">
+        <div class="block">
+          <h2>Work Experience</h2>
+          <blockquote class="profile_quote">
+            <p>
+              "To give real service, you must add something which cannot 
+              be bought or measured with money."
+            </p>
+            <p>Sir.M.Vishvesvaraya</p>
+          </blockquote>
+          <p>Engineer at DDR Software Systems, Qualcomm.</p>	
+          <p>Associate Engineer at DDR Software Systems, Qualcomm.</p>	
+          <p>Interim Engineering Intern at DDR Software Systems, Qualcomm.</p>				
+        </div>
+        <div class="clear"></div>
+      </div>
+    </div>
+    <!-- PROJECTS CONTENT -->
+    <div class="panel" id="Projects">
+      <div class="fade" id="content_container">
+        <div class="block">
+          <h2>Featured Projects</h2>
+          <blockquote class="profile_quote">
+            <p>
+              "To give real service, you must add something which cannot 
+              be bought or measured with money."
+            </p>
+            <p>Sir.M.Vishvesvaraya</p>
+          </blockquote>
+          <p>Fully functional Self Drving Car Simulation fuelled entirely by Deep Learning.</p>
+          <p>Modelling and Simulation of Photo Voltaic Cell.</p>		
+        </div>
+        <div class="clear"></div>
+      </div>
+    </div>
+    <!-- AWARDS CONTENT -->
+    <div class="panel" id="Awards">
+      <div class="fade" id="content_container">
+        <div class="block">
+          <h2>Achivements and Awards</h2>
+          <blockquote class="profile_quote">
+            <p>
+              "To give real service, you must add something which cannot 
+              be bought or measured with money."
+            </p>
+            <p>Sir.M.Vishvesvaraya</p>
+          </blockquote>
+          <h3>Scholastic</h>
+          <ul>
+            <li>
+              Secured, All India Ranking of 3,192 in JEE Advanced (99.7 Percentile), 
+              among 2.2 lakh selected applicants out of 1.2 Million.
+            </li>
+            <li>
+              Awarded Certificate of Merit (Rank 15) in Karnataka Regional Mathematical Olympiad. 
+              Among the top 700 in the Country to qualify for Indian National Mathematical Olympiad
+            </li>
+            <li>
+              Secured State Rank 18 in National Talent Search Examination (Stage 1) 2015 by DSERT, 
+              Karnataka (out of 70,000).
+            </li>	
+          </ul>			
+        </div>
+        <div class="clear"></div>
+      </div>
+    </div>
+    <!-- FOOTER -->
+    <div id="footer">
+      <p class="footer_name">Copyright © 2023 | This site is
+        <i class="fas fa-code"></i> with <i class="fas fa-heart"></i> by
+        <a href="https://github.com/pavan-mg/pavan-mg.github.io" target="_blank"> PAVAN M G </a>
+        | All Rights Reserved
+      </p>
+    </div>
+    <!-- SCRIPT -->
+    <script>
+      /* Get all the anchors for Header Menu */
+      var headerMenu = document.getElementsByClassName('header_menu')[0];
+      var anchors = headerMenu.getElementsByTagName('a');
+      /* Loop through the anchors and add a click event listener */
+      for (var i = 0; i < anchors.length; i++) {
+        anchors[i].addEventListener("click", function(event) {
+          /* Prevent the default functionality */
+          event.preventDefault();
+          /* Scroll to the top in a smooth fashion */
+          window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+          });
+          /* Clear the content of all anchors */
+          for (var j = 0; j < anchors.length; j++){
+            var pre_href = anchors[j].getAttribute("href");
+            var pre_id = pre_href.replace("#", "");
+            var pre_div = document.getElementById(pre_id)
+            pre_div.style.display = "none";
+          }
+          /* Display the content of clicked anchor */
+          var href = this.getAttribute("href");
+          var id = href.replace("#", "");
+          var div = document.getElementById(id)
+          div.style.display = "block";
+        });
+      }
+    </script>
+  </div>
+</html>
