@@ -23,10 +23,16 @@ for (var i = 0; i < anchors.length; i++) {
     var id = href.replace("#", "");
     var content_div = document.getElementById(id)
     content_div.style.display = "block";
+    /* Remove fade class to calculate height */
+    if (content_div.classList.contains("fade")) {
+      content_div.classList.remove("fade");
+    }
     /* Setting the border height of content desplayed */
     var left_col_div = document.getElementById("left_col")
     if(content_div.clientHeight < left_col_div.clientHeight) {
     content_div.style.height = left_col_div.clientHeight - 20 + 'px';
     }
+    /* Add fade animation */
+    content_div.classList.add("fade");
   });
 }
