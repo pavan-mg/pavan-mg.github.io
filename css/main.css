@@ -208,18 +208,18 @@ ul {
 				font-family: 'Comic-Relief';
 			}
 	#left_col {
-		width: 261px;
+		width: 260px;
 		margin-top: 80px;
 		float: left;
 		border-top: 1px solid #b5b5b5;
-		border-right: 1px solid #b5b5b5;
 		box-sizing: border-box;
 	}
 	#content_container {
 		margin-top: 80px;
-		width: 699px;
+		width: 700px;
 		float: left;
 		border-top: 1px solid #b5b5b5;
+		border-left: 1px solid #b5b5b5;
 		box-sizing: border-box;
 	}
 	#footer {

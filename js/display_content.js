@@ -21,7 +21,11 @@ for (var i = 0; i < anchors.length; i++) {
     /* Display the content of clicked anchor */
     var href = this.getAttribute("href");
     var id = href.replace("#", "");
-    var div = document.getElementById(id)
-    div.style.display = "block";
+    var content_div = document.getElementById(id)
+    content_div.style.display = "block";
+    var left_col_div = document.getElementById("left_col")
+    if(content_div.clientHeight < left_col_div.clientHeight) {
+    content_div.style.height = left_col_div.clientHeight+'px';
+    }
   });
 }
