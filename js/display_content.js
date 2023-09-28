@@ -33,6 +33,6 @@ for (var i = 0; i < anchors.length; i++) {
     content_div.style.height = left_col_div.clientHeight - 20 + 'px';
     }
     /* Add fade animation */
-    content_div.classList.add("fade");
+    //content_div.classList.add("fade");
   });
 }
