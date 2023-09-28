@@ -25,7 +25,7 @@ for (var i = 0; i < anchors.length; i++) {
     content_div.style.display = "block";
     /* Setting the border height of content desplayed */
     var left_col_div = document.getElementById("left_col")
-    if(content_div.clientHeight < left_col_div.clientHeight) {
+    if(content_div.clientHeight < left_col_div.clientHeight - 20) {
     content_div.style.height = left_col_div.clientHeight - 20 + 'px';
     }
   });
