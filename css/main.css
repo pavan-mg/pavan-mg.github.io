@@ -188,18 +188,21 @@ ul {
 		top: 0;
 		background-color: #454343;
 		border-bottom: 1px solid #b5b5b5;
+		height: 80px;
 		z-index: 99;
 	}
 		.header_logotype_container {
 			width: 260px;
 			height: 80px;
 			border-right: 1px solid #b5b5b5;
-			float: left;
+			position:fixed;
+			
 		}
 		.header_menu_container {
 			height: 80px;
-			width: 699px;
-			float: left;
+			width: 700px;
+			margin-left: 260px;
+			position:fixed;
 		}
 			.header_menu_container a {
 				font-family: 'Comic-Relief';
@@ -233,7 +236,7 @@ ul {
 	font-size: 32px;
 }
 .logotype_occupation{
-	margin-top: 0px;
+	margin: 0px;
 	color: #e4e3e8;
 	font-size: 16px;
 	letter-spacing: 0px;
