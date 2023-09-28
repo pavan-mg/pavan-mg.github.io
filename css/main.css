@@ -5,7 +5,30 @@
     src: url('/assets/fonts/comic-relief/ComicRelief.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
-      }
+}
+
+/* Keyframes */
+
+@keyframes fadeInFromNone {
+	0% {
+		display: block;
+		opacity: 0;
+	}
+
+	100% {
+		display: block;
+		opacity: 1;
+	}
+}
+
+@keyframes loading {
+	from {
+		transform: rotate(0turn);
+	}
+	to {
+		transform: rotate(1turn);
+	}
+	}
 
 /* Utils */
 
@@ -40,22 +63,6 @@
 .fade {
 	animation: fadeInFromNone 1s ease-in-out;
 }
-	@keyframes fadeInFromNone {
-		0% {
-			display: none;
-			opacity: 0;
-		}
-
-		1% {
-			display: block;
-			opacity: 0;
-		}
-
-		100% {
-			display: block;
-			opacity: 1;
-		}
-	}
 
 .horizontal_list {
 	margin: 0;
@@ -99,15 +106,6 @@
 	border-top-color: #48DA9B;
 	border-radius: 50%;
 	animation: loading 0.75s ease infinite;
-	}
-	
-	@keyframes loading {
-	from {
-		transform: rotate(0turn);
-	}
-	to {
-		transform: rotate(1turn);
-	}
 	}
 	  
 /* Main tags */
