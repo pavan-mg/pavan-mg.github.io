@@ -42,6 +42,7 @@
 
 .block {
 	margin: 20px 20px 0 20px;
+	animation: fadeInFromNone 1s ease-in-out;
 }
 	.block h1 {
 		margin-left: -5px;
