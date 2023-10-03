@@ -326,7 +326,9 @@ ul {
 	.send_message_button a {
 		display: inline-block;
 		border-radius: 4px;
-		background-color: #48DA9B;
+		padding: 15px;
+		box-shadow: 0 10px 15px rgba(25,23,23,0.5);
+		background: linear-gradient(0deg, #50e0a0,#48DA9B);
 		text-align: center;
 		width: 170px;
 		transition: all 0.5s;
@@ -335,7 +337,6 @@ ul {
 		text-decoration: None;
 		font-size: 20px;
 		color: #454343;
-		padding: 15px;
 	}
 	.send_message_button a:hover {
 		box-shadow: 0 2px 5px rgb(10 10 10);
@@ -389,7 +390,7 @@ ul {
 	}
 	
 	.social-icons ul li:nth-child(1) a:hover .fab {
-	  color: #e4405f;
+	  color: linear-gradient(45deg, #405de6,#5851db,#833ab4,#c13584,#e1305c,#fd1d1d);
 	}
 	
 	.social-icons ul li:nth-child(2) a:hover .fab {
