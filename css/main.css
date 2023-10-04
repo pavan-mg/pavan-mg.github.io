@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: 'Comic-Relief';
-    src: url('/assets/fonts/comic-relief/ComicRelief.ttf') format('truetype');
+    src: url('https://pavan-mg.in/assets/fonts/comic-relief/ComicRelief.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
 }
@@ -299,7 +299,7 @@ ul {
 		width: 210px;
 		height: 210px;
 		margin:10px;
-		background: url(/assets/pavanmg.jpg) 100% /210px no-repeat;
+		background: url(https://pavan-mg.in/assets/pavanmg.jpg) 100% /210px no-repeat;
 	}
 
 .hello_content,
