@@ -5,12 +5,12 @@ Software Engineer, Qualcomm
 ---------------------------
 
 *   [Download CV](https://pavan-mg.in/assets/Pavan%20M%20G%20CV.pdf)
-*   [About](https://github.com/pavan-mg/pavan-mg.github.io/new/main?readme=1#a-few-words-about-me)
-*   [Education](https://github.com/pavan-mg/pavan-mg.github.io/new/main?readme=1#educational-details)
-*   [Skills](https://github.com/pavan-mg/pavan-mg.github.io/new/main?readme=1#skills)
-*   [Work Experience](https://github.com/pavan-mg/pavan-mg.github.io/new/main?readme=1#work-experience)
-*   [Featured Projects](https://github.com/pavan-mg/pavan-mg.github.io/new/main?readme=1#featured-projects)
-*   [Awards](https://github.com/pavan-mg/pavan-mg.github.io/new/main?readme=1#achivements-and-awards)
+*   [About](https://github.com/pavan-mg/pavan-mg.github.io/tree/main#a-few-words-about-me)
+*   [Education](https://github.com/pavan-mg/pavan-mg.github.io/tree/main#educational-details)
+*   [Skills](https://github.com/pavan-mg/pavan-mg.github.io/tree/main#skills)
+*   [Work Experience](https://github.com/pavan-mg/pavan-mg.github.io/tree/main#work-experience)
+*   [Featured Projects](https://github.com/pavan-mg/pavan-mg.github.io/tree/main#featured-projects)
+*   [Awards](https://github.com/pavan-mg/pavan-mg.github.io/tree/main#achivements-and-awards)
 
 Hello!
 ------
