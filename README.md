@@ -48,7 +48,7 @@ A few words about me
 > 
 > J.M. Barrie
 
-Until now, in my life, I change from active moments with a lot of variety, challenges and improvisations, to moments of tranquility and stability, being difficult to stay in a place during a long time. I consider myself a tolerant and respectful person with open mind and quite honest. I really like to listen people stories and backgrounds and their different experiences around the world.
+Until now, in my life, I have changed from active moments with a lot of variety, challenges, and improvisations, to moments of tranquility and stability, being difficult to stay in a place for a long time. I consider myself a tolerant and respectful person with an open mind and quite honest. I really like to listen to people's stories and backgrounds and their different experiences around the world.
 
 Interests & Hobbies
 -------------------
@@ -60,8 +60,6 @@ I'm passionate about technology and human behavior, both determine almost all my
 *   Having new experiences
 *   Hiking and Biking
 *   Web Developing
-*   Computer Gaming
-*   Manga and Anime
 
 Educational Details
 -------------------
@@ -72,20 +70,26 @@ Educational Details
 
 Indian Institute of Technology, Varanasi — B. Tech Electrical Engineering
 
-Grade: 8.31 Academic Courses: AI, Applied Deep Learning, Natural Language Processing, Parallel Computing, Data Structures and Algorithms, C Programming, Probability and Statistics, Calculus, Numerical Techniques, Digital Electronics, Control Systems, etc.
+>Grade: 8.31 Academic
+>
+>Courses: AI, Applied Deep Learning, Natural Language Processing, Parallel Computing, Data Structures and Algorithms, C Programming, Probability and Statistics, Calculus, Numerical Techniques, Digital Electronics, Control Systems, etc.
 
 FIITJEE P U College, Bengaluru — XII Standard PCMB
 
-Percentage: 85.17 Academic Courses: Computer Science, Mathematics, Physics and Chemistry.
+>Percentage: 85.17
+>
+>Academic Courses: Computer Science, Mathematics, Physics and Chemistry.
 
 Abhinava Bharathi High School, Mandya — X Standard
 
-Percentage: 97.92 - School Rank 1 Academic Courses: Mathematics, Science, and Social Science. Languages: Kannada, English, and Hindi.
+>Percentage: 97.92 - School Rank 1
+>
+>Academic Courses: Mathematics, Science, and Social Science. Languages: Kannada, English, and Hindi.
 
 Skills
 ------
 
-> “Skill is the unified force of experience, intellect and passion in their operation.”
+> “Skill is the unified force of experience, intellect, and passion in their operation.”
 > 
 > John Ruskin
 
@@ -110,7 +114,7 @@ DDR Software Systems Engineer, Qualcomm.
 
 *   Bring up, Initialization, and Enablement of DDR Sub System Features for Chip Station Modem Devices from Pre-Silicon to Post Silicon Phase in Secondary Boot Loader (XBL) by integrating DDR System Firmware through DDR Drivers.
 *   Developed DDR Drivers for DDR Training Data restore and DDR Debug tests in Flash-less Chipsets for First-Time in Qualcomm Wildcat Hierarchy Chipsets.
-*   Tool Development for running DDR Debug Tests which includes collection of Eye Plots, Memory functionality, and Parameters tuning on Flash-less Chipsets.
+*   Tool Development for running DDR Debug Tests which includes a collection of Eye Plots, Memory functionality, and Parameters tuning on Flash-less Chipsets.
 
 DDR Software Systems Associate Engineer, Qualcomm.
 
@@ -122,7 +126,7 @@ Interim Engineering Intern at DDR Software Systems, Qualcomm.
 
 DDR Eye Health Classifier Tool
 
-*   Built Algorithms to map the relation of Vref and CDC of DDR PHY into 2D Array Data called DDR Eye Plot for enabled DDR Frequencies and Read/Write operations on DDR Sub\_System of a referenced Chipset.
+*   Built Algorithms to map the relation of Vref and CDC of DDR PHY into 2D Array Data called DDR Eye Plot for enabled DDR Frequencies and Read/Write operations on the DDR Sub System of a referenced Chipset.
 *   Generated Synthetic data that mimicked the Eye Plot data from scratch to get Eye Plot samples of Specific Classes from it.
 *   Developed a Multiclass Learning Model using CNN from the data generated, and built a framework for getting the summary of belonging class and feature parameters of Eye Plot on Test SoCs.
 *   Received a Pre-Placement Offer.
@@ -157,7 +161,7 @@ Achivements and Awards
 ### Scholastic
 
 *   Secured, All India Ranking of 3,192 in JEE Advanced (99.7 Percentile), among 2.2 lakh selected applicants out of 1.2 Million.
-*   Awarded Certificate of Merit (Rank 15) in Karnataka Regional Mathematical Olympiad. Among the top 700 in the Country to qualify for Indian National Mathematical Olympiad
+*   Awarded Certificate of Merit (Rank 15) in Karnataka Regional Mathematical Olympiad. Among the top 700 in the Country to qualify for the Indian National Mathematical Olympiad
 *   Secured State Rank 18 in National Talent Search Examination (Stage 1) 2015 by DSERT, Karnataka (out of 70,000).
 
 ### Extra-Curricular Activities
