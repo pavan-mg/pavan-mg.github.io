@@ -12,6 +12,9 @@ Software Engineer, Qualcomm
 *   [Featured Projects](https://github.com/pavan-mg/pavan-mg.github.io/tree/main#featured-projects)
 *   [Awards](https://github.com/pavan-mg/pavan-mg.github.io/tree/main#achivements-and-awards)
 
+![Alt text](https://pavan-mg.in/assets/pavanmg.jpg)
+
+
 Hello!
 ------
 
