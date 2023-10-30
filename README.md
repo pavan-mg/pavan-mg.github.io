@@ -1,16 +1,18 @@
-Pavan M G Profile
+Welcome to my Profile!
 =========
 
-Software Engineer, Qualcomm
+![Alt](https://pavan-mg.in/assets/pavanmg.jpg)
+
+Pavan M G - Software Engineer, Qualcomm
 ---------------------------
 
-*   [Download CV](https://pavan-mg.in/assets/Pavan%20M%20G%20CV.pdf)
 *   [About](https://github.com/pavan-mg/pavan-mg.github.io/tree/main#a-few-words-about-me)
 *   [Education](https://github.com/pavan-mg/pavan-mg.github.io/tree/main#educational-details)
 *   [Skills](https://github.com/pavan-mg/pavan-mg.github.io/tree/main#skills)
 *   [Work Experience](https://github.com/pavan-mg/pavan-mg.github.io/tree/main#work-experience)
 *   [Featured Projects](https://github.com/pavan-mg/pavan-mg.github.io/tree/main#featured-projects)
 *   [Awards](https://github.com/pavan-mg/pavan-mg.github.io/tree/main#achivements-and-awards)
+*   [Download CV](https://pavan-mg.in/assets/Pavan%20M%20G%20CV.pdf)
 
 Hello!
 ------
