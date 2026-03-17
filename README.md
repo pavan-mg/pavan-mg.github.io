@@ -1,6 +1,6 @@
 ﻿'# Pavan M G Portfolio
 
-Modern portfolio website for Pavan M G, based on your original content.
+Modern portfolio website for Pavan M G, based on original content.
 
 ## Features
 
