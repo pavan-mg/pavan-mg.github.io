@@ -1,387 +1,317 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
-  <!-- HEAD -->
-  <head>
-    <title>Pavan M G Profile</title>
-    <link rel='stylesheet' type='text/css' href="https://pavan-mg.in/css/main.css">
-    <link 
-      rel="stylesheet" 
-      href="https://use.fontawesome.com/releases/v6.4.2/css/all.css" 
-      integrity="sha384-blOohCVdhjmtROpu8+CfTnUWham9nkX7P7OZQMst+RUnhtoY/9qemFAkIKOYxDI3" 
-      crossorigin="anonymous"
-    >
-    <link rel="icon" href="https://pavan-mg.in/assets/pavanmg.jpg">
-    <meta charset="UTF-8">
-    <meta name="description" content="Pavan M G Profile">
-    <meta name="keywords" content="HTML, CSS, JavaScript">
-    <meta name="author" content="Pavan M G">
-    <meta name="viewport" content="width=device-width">
-  </head>
-  <!-- LOADING SCRIPT-->
-  <div class="loader"></div>
-  <script type="text/javascript" src="js/loader.js"></script>
-  <!-- MAIN CONTAINER -->
-  <div id="main_container">
-    <!-- HEADER -->
-    <div id="header">
-      <!-- LOGOTYPE/NAME -->
-      <div class="header_logotype_container">
-        <h1 class="logotype_name">Pavan M G</h1>
-        <h2 class="logotype_occupation">Software Engineer, Qualcomm</h2>
-      </div>
-      <!-- MAIN MENU -->
-      <div class="header_menu_container">
-        <ul class="download_button horizontal_list">
-          <li><a href="https://pavan-mg.in/assets/Pavan M G CV.pdf" target="_blank">Download CV</a></li>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Pavan M G | Software Engineer portfolio" />
+  <title>Pavan M G | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.4.2/css/all.css" integrity="sha384-blOohCVdhjmtROpu8+CfTnUWham9nkX7P7OZQMst+RUnhtoY/9qemFAkIKOYxDI3" crossorigin="anonymous" />
+  <link rel="stylesheet" href="css/main.css" />
+  <link rel="icon" href="assets/pavanmg.jpg" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.3/html2pdf.bundle.min.js" integrity="sha512-YcsIP3PA8xBFCxF3MyHke+vNSEq6f67xGz1k3R2ovXgo0S3t43yvvPUoqTn2xG3es8QYvGMcQxuDa2H5x4tc4A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+  <div class="loader" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#home">Pavan M G</a>
+      <button id="menuToggle" class="menu-toggle" aria-label="Toggle navigation">
+        <i class="fas fa-bars"></i>
+      </button>
+      <button id="themeToggle" class="theme-toggle" aria-label="Toggle light/dark mode">
+        <i class="fas fa-moon"></i>
+      </button>
+      <nav class="main-nav" aria-label="Primary">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
-        <div class="clear"></div>
-        <ul class="header_menu horizontal_list">
-          <li><a href="#Home" class="no_border">Home</a></li>
-          <li><a href="#Education">Education</a></li>
-          <li><a href="#Skills">Skills</a></li>
-          <li><a href="#Experience">Work Experience</a></li>
-          <li><a href="#Projects">Featured Projects</a></li>
-          <li><a href="#Awards">Awards</a></li>
-        </ul>
-      </div>
+      </nav>
     </div>
-    <!-- LEFT COL -->
-    <div id="left_col">
-      <div class="profile_frame">
-        <div class="profile_picture"></div>
+  </header>
+
+  <main id="main">
+    <section id="home" class="section hero" aria-label="Hero">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <p class="eyebrow">Hi, I’m Pavan</p>
+          <h1>Boot Software Engineer at Nvidia India Graphics Limited</h1>
+          <p>I enable Tegra bootloader features and micro-boot subsystems across pre-silicon, FPGA and silicon phases. I manage boot-chain components, DRAM ECC, memory scrubbing, page retirement, firmware loading, and system reliability for scalable platform release.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="https://pavan-mg.in/assets/Pavan M G CV.pdf" target="_blank" rel="noreferrer">Download CV</a>
+            <a class="btn btn-outline" href="#contact">Let’s Talk</a>
+          </div>
+          <div class="social-links" aria-label="Social links">
+            <a href="https://github.com/pavan-mg" target="_blank" rel="noreferrer" title="GitHub"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/pavan-mg/" target="_blank" rel="noreferrer" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/pavan.mg/" target="_blank" rel="noreferrer" title="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="https://twitter.com/pavanm07" target="_blank" rel="noreferrer" title="X (Twitter)"><i class="fab fa-x-twitter"></i></a>
+          </div>
+        </div>
+        <figure class="hero-photo" aria-hidden="true">
+          <img src="assets/pavanmg.jpg" alt="Pavan M G" loading="lazy" />
+        </figure>
       </div>
-      <div class="hello_content">
-        <h2>Hello!</h2>
-        <p>
-          I am Pavan, currently working as a DDR Software Systems Engineer 
-          at Qualcomm India Private Limited.
-        </p>
-      </div>
-      <div class="contact_details_content">
-        <h2>Contact details</h2>
-        <p class="purple">Email:</p>
-        <p>pavanmggp@gmail.com</p>
-        <p class="purple">Address:</p>
-        <p>Hitech City, Madhapur</p>
-        <p>Hyderabad, India - 500081</p>
-      </div>
-      <div class = send_message_button>
-        <a 
-        href="mailto:pavanmggp@gmail.com" >
-        <span>Send Message</span>
-        </a>
-      </div>
-      <div class="social-icons">
-        <h2>Follow me on</h2>
-        <ul class="horizontal_list">
-          <li>
-            <a href="https://www.instagram.com/pavan.mg/" 
-            target="_blank"
-            title="Instagram: pavan.mg"
-            frmappuse="1"> 
-            <i class="fab fa-instagram"></i></a>
-          </li>
-          <li>
-            <a href="https://www.twitter.com/pavanm07" 
-            target="_blank"
-            title="X(Twitter): pavanm07"
-            frmappuse="1"> 
-            <i class="fab fa-x-twitter"></i></a></li>
-          <li>
-            <a href="https://www.facebook.com/pavanm07/" 
-              target="_blank"
-              title="Facebook: pavanm07"
-              frmappuse="1"> 
-              <i class="fab fa-facebook"></i></a>
-          </li>
-          <li>
-            <a href="https://www.github.com/pavan-mg" 
-              target="_blank"
-              title="GitHub: pavan-mg"
-              frmappuse="1"> 
-            <i class="fab fa-github"></i></a>
-          </li>
-          <li>
-            <a href="https://www.linkedin.com/in/pavan-mg/" 
-              target="_blank"
-              title="Linkedin: pavan-mg"
-              frmappuse="1"> 
-            <i class="fab fa-linkedin"></i></a>
-          </li>
+    </section>
+
+    <section id="about" class="section" aria-label="About">
+      <div class="container section-inner">
+        <h2>About Me</h2>
+        <p class="lead">“Not in doing what you like, but in liking what you do is the secret of happiness.” — J.M. Barrie</p>
+        <p>Until now, in my life, I have changed from active moments with a lot of variety, challenges and improvisations, to moments of tranquility and stability, being difficult to stay in a place for a long time. I consider myself a tolerant and respectful person with an open mind and quite honest. I really like to listen to people's stories and backgrounds and their different experiences around the world.</p>
+        <h3>Interests & Hobbies</h3>
+        <ul class="tag-list">
+          <li>Visiting new places</li>
+          <li>Meeting people</li>
+          <li>Having new experiences</li>
+          <li>Hiking and Biking</li>
+          <li>Web Developing</li>
+          <li>Computer Gaming</li>
+          <li>Manga and Anime</li>
         </ul>
       </div>
-    </div>
-    <!-- CONTENT CONTAINER -->
-    <div id="content_container">	
-      <!-- PROFILE CONTENT -->
-      <div class="show" id="Home">	
-        <div class="block">
-          <h2>A few words about me</h2>
-          <blockquote class="profile_quote">
-            <p>
-              “Not in doing what you like, 
-              but in liking what you do is the secret of happiness.”
-            </p>
-            <p>J.M. Barrie</p>
-          </blockquote>
-        </div>
-        <div class="block">
-          <p>
-            Until now, in my life, I change from active moments 
-            with a lot of variety, challenges and improvisations, 
-            to moments of tranquility and stability, being difficult 
-            to stay in a place during a long time. 
-            I consider myself a tolerant and respectful person 
-            with open mind and quite honest. 
-            I really like to listen people stories and backgrounds 
-            and their different experiences around the world.
-          </p>				
-          <h2>Interests & Hobbies</h2>
-          <p>
-            I'm passionate about technology and human behavior, both determine 
-            almost all my interests and hobbies:
-          </p>
-          <ul>
-            <li>Visiting new places</li>
-            <li>Meeting people</li>
-            <li>Having new experiences</li>
-            <li>Hiking and Biking</li>
-            <li>Web Developing</li>
-            <li>Computer Gamming</li>
-            <li>Manga and Anime</li>
-          </ul>
-        </div>
-        <div class="clear"></div>
-      </div>
-      <!-- EDUCATION CONTENT -->
-      <div class="panel" id="Education">
-        <div class="block">
-          <h2>Educational Details</h2>
-          <blockquote class="profile_quote">
-            <p>
-              “True education is that which proves useful in life and makes you industrious.”
-            </p>
-            <p>Mahatma Gandhi</p>
-          </blockquote>
-          <p>Indian Institute of Technology, Varanasi — B. Tech Electrical Engineering</p>
-          <p>
-            Grade: 8.31
-            Academic Courses: AI, Applied Deep
-            Learning, Natural Language Processing,
-            Parallel Computing, Data Structures and
-            Algorithms, C Programming, Probability and
-            Statistics, Calculus, Numerical Techniques,
-            Digital Electronics, Control Systems, etc.
-            </p>	
-          <p>FIITJEE P U College, Bengaluru — XII Standard PCMB</p>
-          <p>
-            Percentage: 85.17
-            Academic Courses: Computer Science,
-            Mathematics, Physics and Chemistry.
-          </p>	
-          <p>Abhinava Bharathi High School, Mandya — X Standard</p>
-          <p>
-            Percentage: 97.92 - School Rank 1
-            Academic Courses: Mathematics, Science, and Social Science.
-            Languages: Kannada, English, and Hindi.
-          </p>				
-        </div>
-        <div class="clear"></div>
-      </div>
-      <!-- SKILLS CONTENT -->
-      <div class="panel" id="Skills">
-        <div class="block">
-          <h2>Skills</h2>
-          <blockquote class="profile_quote">
-            <p>
-              “Skill is the unified force of experience, intellect and passion in their operation.”
-            </p>
-            <p>John Ruskin</p>
-          </blockquote>
-          <p>
-            Expertise: Software Development, Debugging, Problem Solving, and Mathematical Modelling.
-          </p>	
-          <p>
-            Interests: Data Structures and Algorithms,
-            Deep Learning, Computer Vision, Embedded
-            Systems, Operating Systems, and Networking.
-          </p>
-          <p>
-            Languages: C/C++, Python, ARM/RISC-V
-            Assembly, HTML, CSS, Javascript, and Perl.
-          </p>
-          <p>
-            Tools: Lauterbach TRACE32, DDR Debug Tools, Perforce, 
-            Git, Anaconda, VS, MATLAB, and MS Office.            
-          </p>
-          <p>
-            Frameworks: Keras, OpenCV, Tkinter, etc.
-          </p>	
-        </div>
-        <div class="clear"></div>
-      </div>
-      <!-- EXPERIENCE CONTENT -->
-      <div class="panel" id="Experience">
-        <div class="block">
-          <h2>Work Experience</h2>
-          <blockquote class="profile_quote">
-            <p>
-              "To give real service, you must add something which cannot 
-              be bought or measured with money."
-            </p>
-            <p>Sir.M.Vishvesvaraya</p>
-          </blockquote>
-          <p>
-            DDR Software Systems Engineer, Qualcomm.
+    </section>
+
+    <section id="experience" class="section gray" aria-label="Experience">
+      <div class="container section-inner">
+        <h2>Work Experience</h2>
+        <div class="timeline">
+          <article class="timeline-item">
+            <span class="timeline-date">MAR 2024 - Present</span>
+            <h3>Boot Software Engineer — Nvidia India Graphics Limited, Bengaluru</h3>
             <ul>
-              <li>
-                Bring up, Initialization, and Enablement of DDR Sub System Features for Chip
-                Station Modem Devices from Pre-Silicon to Post Silicon Phase in Secondary
-                Boot Loader (XBL) by integrating DDR System Firmware through DDR Drivers.
-              </li>
-              <li>
-                Developed DDR Drivers for DDR Training Data restore and DDR Debug tests in
-                Flash-less Chipsets for First-Time in Qualcomm Wildcat Hierarchy Chipsets.
-              </li>
-              <li>
-                Tool Development for running DDR Debug Tests which includes collection of
-                Eye Plots, Memory functionality, and Parameters tuning on Flash-less Chipsets.
-              </li>
+              <li>Enablement of bootloader features for Tegra chipsets through full product lifecycle: pre-silicon, FPGA, silicon bring-up, and customer release.</li>
+              <li>Managed driver/module ownership in micro boot images with a focus on modularity and reuse across platforms, targets, and boards.</li>
+              <li>Developed and executed regression test cases for boot-chain features including DRAM ECC, memory scrubbing, page retirement, carveout settings, firmware loading, and fuse alias.</li>
+              <li>Initialized core subsystems including MSS, iGPU, and FSI in early boot/software integration phases.</li>
+              <li>Collaborated with cross-functional teams to identify and resolve system-level bugs.</li>
+              <li>Tech stack: C/C++, bootloader, LPDDR, bash, JTAG debugging, DS&A, Python, CNN, image processing.</li>
             </ul>
-          </p>	
-          <p>DDR Software Systems Associate Engineer, Qualcomm.
+          </article>
+          <article class="timeline-item">
+            <span class="timeline-date">2021 - 2023</span>
+            <h3>DDR Software Systems Associate Engineer — Qualcomm</h3>
             <ul>
-              <li>
-                Enabling DDR Sub System Features for Value Tier Chipsets which include 
-                Snapdragon 600 and 400 Series in Post Slillicon to CS Phase.
-              </li>
-              <li>
-                Adding DDR Debug tests support in the XBL Level to validate the Health of the
-                DRAM Part used in these Chipsets with NAND, EMMC, and UFS Flash Storage
-              </li>
-              <li>
-                Resolving DDR Sub System-related customer issues by working in
-                collaboration with various teams like DDR PHY, DDR SVE, ICB, NoC, etc
-              </li>
+              <li>Enabled DDR subsystem features for value-tier chipsets including Snapdragon 600 and 400 series from post-silicon to customer sample phases.</li>
+              <li>Enhanced XBL-level DDR debug tests to validate DRAM health with NAND / eMMC / UFS storage configurations.</li>
+              <li>Resolved DDR subsystem customer issues via collaboration across DDR PHY, SVE, ICB, NoC, and other teams.</li>
             </ul>
-          </p>
-          <p>Interim Engineering Intern at DDR Software Systems, Qualcomm.</p>
-          <p>DDR Eye Health Classifier Tool
+          </article>
+          <article class="timeline-item">
+            <span class="timeline-date">2020</span>
+            <h3>Interim Engineering Intern — Qualcomm</h3>
             <ul>
-              <li>
-                Built Algorithms to map the relation of Vref and CDC of DDR PHY into 2D Array
-                Data called DDR Eye Plot for enabled DDR Frequencies and Read/Write
-                operations on DDR Sub_System of a referenced Chipset.
-              </li>
-              <li>
-                Generated Synthetic data that mimicked the Eye Plot data from scratch to get
-                Eye Plot samples of Specific Classes from it.
-              </li>
-              <li>
-                Developed a Multiclass Learning Model using CNN from the data generated,
-                and built a framework for getting the summary of belonging class and feature
-                parameters of Eye Plot on Test SoCs.
-              </li>
-              <li>
-                Received a Pre-Placement Offer.
-              </li>
-            </ul>		
-          </p>
+              <li>Built DDR Eye Health Classifier tool: mapped DDR PHY Vref and CDC to 2D eye plot data, generated synthetic data, and used CNN to classify eye plot health.</li>
+              <li>Developed framework to report class and feature parameters for DDR eye plots on test SoCs.</li>
+              <li>Secured pre-placement offer for performance and impact.</li>
+            </ul>
+          </article>
         </div>
-        <div class="clear"></div>
       </div>
-      <!-- PROJECTS CONTENT -->
-      <div class="panel" id="Projects">
-        <div class="block">
-          <h2>Featured Projects</h2>
-          <blockquote class="profile_quote">
-            <p>
-              “It does not take much strength to do things, 
-              but it requires a great deal of strength to decide what to do.”
-            </p>
-            <p>Elbert Hubbard</p>
-          </blockquote>
-          <p>Fully functional Self Drving Car Simulation fuelled entirely by Deep Learning.</p>
-            <ul>
-              <li>
-                Used Computer Vision techniques like Hough Transform via OpenCV to identify
-                lane lines, and CNN model to identify various traffic signs.
-              </li>
-              <li>
-                Trained CNN via behavioral cloning techniques to predict the driving steering
-                angle via image data from left, middle, and front-mounted cameras.
-              </li>
-              <li>
-                Built a fully functional model to Self-Drive the Simulator car.
-              </li>
-            </ul>	
-          <p>Modelling and Simulation of Photo Voltaic Cell.</p>
-          <ul>
-            <li>
-              Used, Simulink programming environment (MATLAB) to implement the
-              Electrical modeling of PV cells.
-            </li>
-            <li>
-              Developed, Mathematical modeling of IV characteristics in the form of
-              continuous piecewise functions using regression.
-            </li> 
-          </ul>	
-          <p>
-            Other Projects: Brain Tumor Detection using Genetic Algorithms. Assembling Genomes Using de
-            Bruijn Graphs. Sort-Term Load Forecasting using LSTM Networks
-          </p>	
+    </section>
+
+    <section id="projects" class="section" aria-label="Projects">
+      <div class="container section-inner">
+        <h2>Featured Projects</h2>
+        <div class="cards-grid">
+          <article class="card">
+            <h3>Autonomous Driving Simulator (Deep Learning)</h3>
+            <p>Used OpenCV and Hough transforms for lane detection, traffic sign recognition and behavioral cloning to predict steering angles.</p>
+          </article>
+          <article class="card">
+            <h3>PV Cell Modeling & Simulation</h3>
+            <p>Implemented electrical PV cell model in MATLAB Simulink, performed regression-based IV curve fitting.</p>
+          </article>
+          <article class="card">
+            <h3>Brain Tumor Detection (Genetic Algorithms)</h3>
+            <p>Built pipeline using evolutionary optimization for feature selection and classification accuracy improvements.</p>
+          </article>
+          <article class="card">
+            <h3>Genome Assembly (de Bruijn Graph)</h3>
+            <p>Developed genome assembly algorithm using de Bruijn graph representation and traversal techniques.</p>
+          </article>
+          <article class="card">
+            <h3>Short-term Load Forecasting (LSTM)</h3>
+            <p>Modeled time-series power consumption with LSTM to reduce forecast error and optimize scheduling.</p>
+          </article>
         </div>
-        <div class="clear"></div>
       </div>
-      <!-- AWARDS CONTENT -->
-      <div class="panel" id="Awards">
-        <div class="block">
-          <h2>Achivements and Awards</h2>
-          <blockquote class="profile_quote">
-            <p>
-              "The reward for work well done is the opportunity to do more."
-            </p>
-            <p>Jonas Salk</p>
-          </blockquote>
-          <h3>Scholastic</h>
-          <ul>
-            <li>
-              Secured, All India Ranking of 3,192 in JEE Advanced (99.7 Percentile), 
-              among 2.2 lakh selected applicants out of 1.2 Million.
-            </li>
-            <li>
-              Awarded Certificate of Merit (Rank 15) in Karnataka Regional Mathematical Olympiad. 
-              Among the top 700 in the Country to qualify for Indian National Mathematical Olympiad
-            </li>
-            <li>
-              Secured State Rank 18 in National Talent Search Examination (Stage 1) 2015 by DSERT, 
-              Karnataka (out of 70,000).
-            </li>	
-          </ul>	
-          <h3>Extra-Curricular Activites</h3>
-          <ul>
-            <li>
-              2 Gold, 3 Silver, and 7 Bronze medals in Aquatics Inter college events during
-              2018 and 2019.
-            </li>
-            <li>
-              Represented Mandya District in Karnataka State Level Swimming and Chess
-              Competition 2011, 2012, 2013, and 2014
-            </li>	
-          </ul>	
+    </section>
+
+    <section id="education" class="section gray" aria-label="Education">
+      <div class="container section-inner">
+        <h2>Education</h2>
+        <div class="cards-grid">
+          <article class="card">
+            <h3>IIT Varanasi</h3>
+            <p>B.Tech Electrical Engineering, CGPA 8.31</p>
+            <p>Courses: AI, Deep Learning, NLP, Parallel Computing, OS, DS & Algo.</p>
+          </article>
+          <article class="card">
+            <h3>FIITJEE P U College</h3>
+            <p>XII PCMB, 85.17%</p>
+          </article>
+          <article class="card">
+            <h3>Abhinava Bharathi High School</h3>
+            <p>X Standard, 97.92% (School Rank 1)</p>
+          </article>
         </div>
-        <div class="clear"></div>
       </div>
+    </section>
+
+    <section id="skills" class="section" aria-label="Skills">
+      <div class="container section-inner">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+          <div class="skill">
+            <h4>DDR Firmware</h4>
+            <div class="skill-bar"><span style="width:95%"></span></div>
+          </div>
+          <div class="skill">
+            <h4>System Debugging</h4>
+            <div class="skill-bar"><span style="width:90%"></span></div>
+          </div>
+          <div class="skill">
+            <h4>C/C++</h4>
+            <div class="skill-bar"><span style="width:95%"></span></div>
+          </div>
+          <div class="skill">
+            <h4>Python</h4>
+            <div class="skill-bar"><span style="width:88%"></span></div>
+          </div>
+          <div class="skill">
+            <h4>Embedded Systems</h4>
+            <div class="skill-bar"><span style="width:85%"></span></div>
+          </div>
+          <div class="skill">
+            <h4>Machine Learning</h4>
+            <div class="skill-bar"><span style="width:80%"></span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="awards" class="section" aria-label="Awards">
+      <div class="container section-inner">
+        <h2>Awards & Achievements</h2>
+        <ul class="checklist">
+          <li>JEE Advanced 99.7 percentile (AIR 3,192)</li>
+          <li>Karnataka Regional Mathematical Olympiad Certificate of Merit (Rank 15)</li>
+          <li>NTSE Stage 1 State Rank 18 (DSERT Karnataka)</li>
+          <li>2 Gold, 3 Silver, 7 Bronze in inter-college aquatics events</li>
+          <li>State representation in swimming and chess (2011-2014)</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="contact" class="section gray" aria-label="Contact">
+      <div class="container section-inner contact-grid">
+        <div>
+          <h2>Contact</h2>
+          <p>Email: <a href="mailto:pavanmggp@gmail.com">pavanmggp@gmail.com</a></p>
+          <p>Location: Hyderabad, India</p>
+          <p>Current Company: Qualcomm</p>
+          <p>Open to new collaborations and technical leadership roles.</p>
+          <a class="btn btn-primary" href="mailto:pavanmggp@gmail.com">Send a message</a>
+        </div>
+        <form action="mailto:pavanmggp@gmail.com" method="post" encType="text/plain" class="contact-form">
+          <label for="name">Your Name</label>
+          <input id="name" name="name" required />
+          <label for="email">Your Email</label>
+          <input id="email" type="email" name="email" required />
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+          <button class="btn btn-outline" type="submit">Share</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© 2026 Pavan M G. Built with HTML, CSS & JS.</p>
+      <p>Source on <a href="https://github.com/pavan-mg/pavan-mg.github.io" target="_blank" rel="noreferrer">GitHub</a>.</p>
     </div>
-    <!-- FOOTER -->
-    <div id="footer">
-      <p class="footer_name">Copyright © 2023 | This site is
-        <i class="fas fa-code"></i> with <i class="fas fa-heart"></i> by
-        <a href="https://github.com/pavan-mg/pavan-mg.github.io" target="_blank"> PAVAN M G </a>
-        | All Rights Reserved
-      </p>
-    </div>
-    <!-- DISPLAY CONTENT SCRIPT -->
-    <script type="text/javascript" src="js/display_content.js"></script>
-  </div>
+  </footer>
+
+  <script>
+    const menuToggle = document.getElementById('menuToggle');
+    const mainNav = document.querySelector('.main-nav');
+    menuToggle.onclick = () => mainNav.classList.toggle('active');
+
+    const navLinks = document.querySelectorAll('.main-nav a');
+    navLinks.forEach(link => {
+      link.addEventListener('click', e => {
+        mainNav.classList.remove('active');
+      });
+    });
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        const target = document.querySelector(this.getAttribute('href'));
+        target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      });
+    });
+
+    const sections = document.querySelectorAll('main section');
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        const id = entry.target.id;
+        const navActive = document.querySelector(`.main-nav a[href="#${id}"]`);
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          navLinks.forEach(link => link.classList.remove('active'));
+          if (navActive) navActive.classList.add('active');
+        }
+      });
+    }, { rootMargin: '-30% 0px -40% 0px', threshold: 0.15 });
+
+    sections.forEach(section => {
+      section.classList.add('reveal');
+      observer.observe(section);
+    });
+
+    const themeToggle = document.getElementById('themeToggle');
+    const savedTheme = localStorage.getItem('theme') || 'dark';
+
+    const applyTheme = (theme) => {
+      document.body.classList.toggle('light-theme', theme === 'light');
+      themeToggle.innerHTML = theme === 'light' ? '<i class="fas fa-sun"></i>' : '<i class="fas fa-moon"></i>';
+      localStorage.setItem('theme', theme);
+    };
+
+    applyTheme(savedTheme);
+
+    themeToggle.addEventListener('click', () => {
+      const current = document.body.classList.contains('light-theme') ? 'light' : 'dark';
+      applyTheme(current === 'dark' ? 'light' : 'dark');
+    });
+
+    const downloadBtn = document.getElementById('downloadResume');
+    if (downloadBtn) {
+      downloadBtn.addEventListener('click', () => {
+        const element = document.getElementById('resumeSection');
+        if (!element) return;
+        const options = {
+          margin: 0.3,
+          filename: 'Pavan-MG-Resume.pdf',
+          image: { type: 'jpeg', quality: 0.98 },
+          html2canvas: { scale: 2 },
+          jsPDF: { unit: 'in', format: 'a4', orientation: 'portrait' }
+        };
+        html2pdf().set(options).from(element).save();
+      });
+    }
+  </script>
+  <script src="js/loader.js"></script>
+</body>
 </html>
