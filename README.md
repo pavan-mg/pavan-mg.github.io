@@ -65,5 +65,5 @@ Use GitHub Pages:
 
 ---
 
-Enjoy your refreshed portfolio!
+Enjoy my refreshed portfolio!
 '
